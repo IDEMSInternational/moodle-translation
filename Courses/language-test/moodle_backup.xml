@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <moodle_backup>
   <information>
-    <name>backup-moodle2-course-6-language_test-20230925-1433-nu.mbz</name>
+    <name>backup-moodle2-course-6-language_test-20230925-1636-nu.mbz</name>
     <moodle_version>2023042400.04</moodle_version>
     <moodle_release>4.2+ (Build: 20230519)</moodle_release>
     <backup_version>2023042400</backup_version>
     <backup_release>4.2</backup_release>
-    <backup_date>1695648784</backup_date>
+    <backup_date>1695656204</backup_date>
     <mnet_remoteusers>0</mnet_remoteusers>
     <include_files>1</include_files>
     <include_file_references_to_external_content>0</include_file_references_to_external_content>
@@ -21,7 +21,7 @@
     <original_course_contextid>197</original_course_contextid>
     <original_system_contextid>1</original_system_contextid>
     <details>
-      <detail backup_id="d5b46c584285c0f9bbfac48f276708c7">
+      <detail backup_id="9342330546dc7f8f707739e9c9562ac2">
         <type>course</type>
         <format>moodle2</format>
         <interactive>1</interactive>
@@ -46,6 +46,13 @@
           <title>PruebaPrueba 2 graduación caño</title>
           <directory>activities/label_11</directory>
         </activity>
+        <activity>
+          <moduleid>12</moduleid>
+          <sectionid>22</sectionid>
+          <modulename>quiz</modulename>
+          <title>Test quiz content when backup and restore</title>
+          <directory>activities/quiz_12</directory>
+        </activity>
       </activities>
       <sections>
         <section>
@@ -55,7 +62,7 @@
         </section>
         <section>
           <sectionid>22</sectionid>
-          <title>1</title>
+          <title>Testing Quiz</title>
           <directory>sections/section_22</directory>
         </section>
         <section>
@@ -84,7 +91,7 @@
       <setting>
         <level>root</level>
         <name>filename</name>
-        <value>backup-moodle2-course-6-language_test-20230925-1433-nu.mbz</value>
+        <value>backup-moodle2-course-6-language_test-20230925-1636-nu.mbz</value>
       </setting>
       <setting>
         <level>root</level>
@@ -237,6 +244,18 @@
         <level>section</level>
         <section>section_22</section>
         <name>section_22_userinfo</name>
+        <value>0</value>
+      </setting>
+      <setting>
+        <level>activity</level>
+        <activity>quiz_12</activity>
+        <name>quiz_12_included</name>
+        <value>1</value>
+      </setting>
+      <setting>
+        <level>activity</level>
+        <activity>quiz_12</activity>
+        <name>quiz_12_userinfo</name>
         <value>0</value>
       </setting>
       <setting>
