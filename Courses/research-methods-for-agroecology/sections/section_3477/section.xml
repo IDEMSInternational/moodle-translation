@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="3477">
+  <number>246</number>
+  <name>Additional resources</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11620</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1693311171</timemodified>
+  <course_format_options id="1721">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="1719">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>242</value>
+  </course_format_options>
+  <course_format_options id="1720">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

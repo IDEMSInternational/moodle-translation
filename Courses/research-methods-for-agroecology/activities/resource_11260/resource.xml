@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2185" moduleid="11260" modulename="resource" contextid="86214">
+  <resource id="2185">
+    <name>Slides for 'Defining the question': Objectives and Tasks</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;Powerpoint slides for the objectives and task&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <tobemigrated>0</tobemigrated>
+    <legacyfiles>0</legacyfiles>
+    <legacyfileslast>$@NULL@$</legacyfileslast>
+    <display>0</display>
+    <displayoptions>a:1:{s:10:"printintro";i:1;}</displayoptions>
+    <filterfiles>0</filterfiles>
+    <revision>2</revision>
+    <timemodified>1692580858</timemodified>
+  </resource>
+</activity>

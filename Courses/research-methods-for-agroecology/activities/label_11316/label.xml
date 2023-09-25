@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2179" moduleid="11316" modulename="label" contextid="86305">
+  <label id="2179">
+    <name>This case study looks at survey data from two time...</name>
+    <intro>&lt;p&gt;This case study looks at survey data from two time points and illustrates the changing nature of farming ecosystems. The aim is to not only document what has happened in the past but also consider perspectives of the future. &lt;/p&gt;
+
+&lt;p&gt;This case study is referred to in a number of topics including:
+&lt;/p&gt;&lt;p&gt;Topic II: Data and variability in a spreadsheet&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=45" target="_blank" title="$@COURSEVIEWBYID*238@$&amp;amp;section=45"&gt;Exploring Data in a Spreadsheet&lt;/a&gt;&lt;br&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=51" title="$@COURSEVIEWBYID*238@$&amp;amp;section=51"&gt;Cleaning Data in a Spreadsheet&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=59" target="_blank" title="$@COURSEVIEWBYID*238@$&amp;amp;section=59"&gt;Data Rectangles&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=64" target="_blank" title="$@COURSEVIEWBYID*238@$&amp;amp;section=64"&gt;Missing Values&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=68" target="_blank" title="$@COURSEVIEWBYID*238@$&amp;amp;section=68"&gt;Unbalanced Data&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Topic III: Data and variability in statistics software&lt;br&gt;&lt;/p&gt;&lt;ul&gt;
+  &lt;li&gt;&lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=91" target="_blank" title="$@COURSEVIEWBYID*238@$&amp;amp;section=91"&gt;Data Rectangles in a Statistics Software&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Topic VII:&amp;nbsp;Introduction to Statistical Modelling&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=178" target="_blank"&gt;Modelling as a way to Account for Variability&lt;/a&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=182" target="_blank" title="$@COURSEVIEWBYID*238@$&amp;amp;section=182"&gt;Distribution of an Error Term&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693473894</timemodified>
+  </label>
+</activity>

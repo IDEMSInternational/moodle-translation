@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1582" moduleid="9174" modulename="label" contextid="82053">
+  <label id="1582">
+    <name>The PICSA case study is a study that aimed to asse...</name>
+    <intro>&lt;p&gt;The &lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=14" target="_blank"&gt;PICSA case study&lt;/a&gt; is a study that aimed to assess the performance of PICSA training by conducting both quantitative and qualitative surveys among some of the farmers who took part in the training. This target population consisted of approximately 4,700 farmers spread across 124 communities in six districts in Northern Ghana.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;There is a large amount of variability across the population of 4700 farmers - spread across the six districts where different conditions, such as cultures, weather patterns, or trainers of the course, may have impacted the farmers differently. So, the case study wants to ensure representation from all six districts. However, the case study approach also aims to take into account the practical element to minimise travel for enumerators. As a result, a total of 416 households were randomly selected from 20 communities. This sampling method is known as stratified sampling, as it ensures a good level of spread across the districts.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The PICSA case study is one example where the individuals have tried to mitigate against further biases being introduced into the sample. One of the objectives of the PICSA survey was to evaluate whether individuals had made any changes following the program. However, there was a risk that respondents may provide inaccurate or exaggerated responses to please the surveyor, rather than reporting the truth about their actual behaviour.&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;To mitigate this risk, a participatory approach was used by conducting qualitative interviews with a small subset of the sample (approximately 30 individuals). These households were carefully chosen from the 416 respondents from the quantitative survey. The selection criteria aimed to provide an accurate representation of various factors identified in the quantitative survey, such as “gender, changes in crops, livestock and livelihoods and those that had made no changes based on the PICSA approach”. This stricter stratified sampling method ensured a diverse range of perspectives within the qualitative interviews and is an example of how sampling is used to control and manage variability.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The enumerators collected stories from these participants to add weight to their responses and to better understand the nature of the changes made. Hence, the PICSA team were able to gather more detailed and accurate information about the changes made following the program, and evaluate the credibility of the responses to identify any inconsistencies in the reported behaviour.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692989186</timemodified>
+  </label>
+</activity>

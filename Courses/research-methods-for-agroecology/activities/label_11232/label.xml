@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2147" moduleid="11232" modulename="label" contextid="86178">
+  <label id="2147">
+    <name>Unbalanced data occurs when there are uneven group...</name>
+    <intro>Unbalanced data occurs when there are uneven group sizes among factor levels. This can impact interpretation. Pivot tables offer a convenient way to swiftly identify data balance by facilitating the examination of group sizes across various factors.</intro>
+    <introformat>1</introformat>
+    <timemodified>1692561322</timemodified>
+  </label>
+</activity>

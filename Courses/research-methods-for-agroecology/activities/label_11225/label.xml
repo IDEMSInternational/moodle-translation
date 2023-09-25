@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2141" moduleid="11225" modulename="label" contextid="86171">
+  <label id="2141">
+    <name>A data rectangle serves as the foundational struct...</name>
+    <intro>A data rectangle serves as the foundational structure for effective data analysis and manipulation. This straightforward format not only facilitates better data understanding but also unlocks the potential of advanced Excel features like Pivot Tables and Filtering, streamlining the analytical process.</intro>
+    <introformat>1</introformat>
+    <timemodified>1692560591</timemodified>
+  </label>
+</activity>

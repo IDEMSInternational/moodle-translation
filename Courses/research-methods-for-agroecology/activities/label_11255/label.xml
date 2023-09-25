@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2161" moduleid="11255" modulename="label" contextid="86209">
+  <label id="2161">
+    <name>Spreadsheet software tends to focus on individual ...</name>
+    <intro>&lt;p&gt;Spreadsheet software tends to focus on individual cells, which can result in errors such as when reformatting the data - for example, when rearranging a particular column, or when trying to rearrange data through “copy and paste”. Any level of “copy and paste” is dangerous as it opens the doors to errors.
+&lt;/p&gt;&lt;br&gt;&lt;p&gt;
+Statistical packages prioritise the analysis of columns, which preserves the associations between variables. This facilitates accurate and reliable analysis, and allows for the easy rearrangement of data.
+&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692580371</timemodified>
+  </label>
+</activity>

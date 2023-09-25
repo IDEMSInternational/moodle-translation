@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2285" moduleid="11512" modulename="resource" contextid="86796">
+  <resource id="2285">
+    <name>Exploring Data in R-Instat (PDF)</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;The following is an introductory tutorial to R-Instat where some data is explored in R-Instat&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <tobemigrated>0</tobemigrated>
+    <legacyfiles>0</legacyfiles>
+    <legacyfileslast>$@NULL@$</legacyfileslast>
+    <display>0</display>
+    <displayoptions>a:1:{s:10:"printintro";i:1;}</displayoptions>
+    <filterfiles>0</filterfiles>
+    <revision>2</revision>
+    <timemodified>1693302827</timemodified>
+  </resource>
+</activity>

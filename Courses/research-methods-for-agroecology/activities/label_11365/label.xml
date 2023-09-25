@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2202" moduleid="11365" modulename="label" contextid="86615">
+  <label id="2202">
+    <name>Statisticians aim to understand variability by ide...</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-54e30d12-7fff-e079-c1b1-358345f904d0"&gt;Statisticians aim to understand variability by identifying influential variables in the outcome. They analyse data to determine relationships, accounting for some variability, while unaccounted variability remains as the difference between total and explained variance, involving both present and absent variables.&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692950939</timemodified>
+  </label>
+</activity>

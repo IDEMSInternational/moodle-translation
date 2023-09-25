@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="3327">
+  <number>125</number>
+  <name>Task 1: comprehensive data analysis</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11216</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1691592557</timemodified>
+  <course_format_options id="1300">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="1298">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>124</value>
+  </course_format_options>
+  <course_format_options id="1299">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

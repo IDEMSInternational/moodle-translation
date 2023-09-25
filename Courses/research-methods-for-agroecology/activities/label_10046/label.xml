@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1781" moduleid="10046" modulename="label" contextid="84106">
+  <label id="1781">
+    <name>Handling data and its output does not finish at th...</name>
+    <intro>&lt;p&gt;Handling data and its output does not finish at the analysis of the data. The step once the data is analysed is to interpret the findings. Although both analysis and interpretation aspects are valuable, there is a subtle distinction between them.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;em&gt;Analysing results&lt;/em&gt; is where the data is examined and explored using statistical techniques to uncover patterns and insights.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Interpreting results&lt;/em&gt; involves deriving meaning from the findings and explaining their implications. It goes beyond the statistical analysis by providing context and digging deeper to understand the data.&lt;/strong&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The aim of an experimental design is to draw meaningful conclusions. While analysing the results may reveal differences between two treatments, interpreting the results adds the context. When interpreting results, you can ask yourself the "so what?" question: What does it mean that one treatment outperforms another? Why might this be the case? What are the implications of these findings? Asking the "So what?" question helps in this process, as it can prompt to consider the implications of the results.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692960619</timemodified>
+  </label>
+</activity>

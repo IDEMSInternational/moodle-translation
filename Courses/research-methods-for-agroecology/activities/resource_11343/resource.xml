@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2236" moduleid="11343" modulename="resource" contextid="86569">
+  <resource id="2236">
+    <name>Rearranging Data in R-Instat</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;A handy practice guide on using the Prepare Menu in R-Instat. This covers merging, appending, and rearranging data using R-Instat.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <tobemigrated>0</tobemigrated>
+    <legacyfiles>0</legacyfiles>
+    <legacyfileslast>$@NULL@$</legacyfileslast>
+    <display>0</display>
+    <displayoptions>a:1:{s:10:"printintro";i:1;}</displayoptions>
+    <filterfiles>0</filterfiles>
+    <revision>2</revision>
+    <timemodified>1692887862</timemodified>
+  </resource>
+</activity>

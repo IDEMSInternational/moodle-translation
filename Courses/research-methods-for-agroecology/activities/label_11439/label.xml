@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2228" moduleid="11439" modulename="label" contextid="86694">
+  <label id="2228">
+    <name>A phrased coined by George Box is: "All models are...</name>
+    <intro>&lt;p&gt;A phrased coined by George Box is: "All models are wrong, but some are useful"&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;When modelling, it is important to remember that there is no “perfect” fit. However, there are some checks that can be made to ensure that this model is an appropriate fit. There are many simple checks that can be performed to evaluate the assumptions of the model.&lt;/p&gt;&lt;br&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693170306</timemodified>
+  </label>
+</activity>

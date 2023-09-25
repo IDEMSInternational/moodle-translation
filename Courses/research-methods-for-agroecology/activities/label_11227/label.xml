@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2143" moduleid="11227" modulename="label" contextid="86173">
+  <label id="2143">
+    <name>Missing data is a common aspect of most datasets. ...</name>
+    <intro>Missing data is a common aspect of most datasets. Employing techniques like Filtering and Pivot Tables proves invaluable in detecting and understanding the missing values.</intro>
+    <introformat>1</introformat>
+    <timemodified>1692561003</timemodified>
+  </label>
+</activity>

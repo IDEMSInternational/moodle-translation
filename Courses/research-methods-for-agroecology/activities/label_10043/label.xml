@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1778" moduleid="10043" modulename="label" contextid="84095">
+  <label id="1778">
+    <name>How the Analysis can affect Future Design
+
+The a...</name>
+    <intro>&lt;h3&gt;How the Analysis can affect Future Design&lt;/h3&gt;
+&lt;br&gt;
+&lt;p&gt;The aim of an experiment is to deliberately manipulate variables so that causal relationships can be investigated. When analysing the results from the initial experiment, a need to conduct a second phase to strengthen or expand on the findings may become clear.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;For example, say that your initial experiment wishes to explore the relationship of multiple factors on the yield. You may have had limited resources (plots) in the initial phase of the experiment, but the analysis shows something very interesting about one of the factors: fertiliser. It may be valuable to explore and validate these findings through a second phase to help strengthen and/or generalise the results.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;To generalise the results, you may wish to investigate the effect of the fertiliser on the yield by making modifications to the original experiment, such as by changing the treatment parameters, or adding new control drops; for instance, testing under different soil types, or different climatic conditions. This allows for a more comprehensive understanding of the relationship between the treatments and outcome.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;In addition, the second phase provides an opportunity to investigate new variables that may have emerged based on the initial findings. This could involve testing additional treatments or exploring new variables altogether, building upon the hypotheses generated from the initial phase and expanding the scope of the investigation.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;We might want to refine the design altogether in the second phase after identifying shortcomings from the first phase; for example, perhaps the first phase involved farmers attending a training session on collecting and recording the results. Say a result found in the first phase was that multiple farmers missed the training because of other responsibilities. After finding this, we make refinements on the second phase to mitigate the impact of farmers not attending the training session by offering multiple sessions, and/or recording which individuals attended training to investigate that in the analysis in case their attendance affects the outcome. Additionally, we may have recognised confounding variables in the initial analysis, and so refine the second phase of the experiment to allow for their inclusion or control.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692959387</timemodified>
+  </label>
+</activity>

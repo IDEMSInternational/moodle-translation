@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1771" moduleid="10036" modulename="label" contextid="84086">
+  <label id="1771">
+    <name>This initial example is based on an experimental
+...</name>
+    <intro>&lt;p&gt;This initial example is based on an experimental
+design game called TOMATO.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Background to the problem&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-size: calc(0.90375rem + 0.045vw);"&gt;Two farmers, Adams and Bloggs,
+grow glass house tomatoes for the English market.&amp;nbsp; After several years it becomes clear that
+Bloggs gets higher yields than Adams.&amp;nbsp;
+Unfortunately it is difficult for them to determine what causes this
+because there are several factors which differ between their methods of growing
+the tomatoes.&amp;nbsp; Farmer Adams is
+conservative.&amp;nbsp; He uses standard heating,
+standard lighting and a variety called "Coward", whereas Farmer Bloggs
+uses supplementary heating, supplementary lighting and a different variety
+called "Doger".&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;Aim&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In this experimental game you
+(think of yourself as Adams and Bloggs) design a &lt;strong&gt;two-stage&amp;nbsp;&lt;/strong&gt;&lt;strong&gt;experiment &lt;/strong&gt;and, based on the results, decide on the
+combinations of the three &lt;strong&gt;factors &lt;/strong&gt;of
+&lt;strong&gt;light, heat&lt;/strong&gt; and &lt;strong&gt;variety &lt;/strong&gt;that&lt;strong&gt; &lt;/strong&gt;gives high
+yields of tomatoes. For simplicity we consider just 2 levels of each factor,
+namely&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;Standard
+Lighting (L -) or Supplementary Lighting (L+)&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: calc(0.90375rem + 0.045vw);"&gt;Standard
+Heating (H -) or Supplementary Heating (H+)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Variety
+'Coward'&amp;nbsp; or Variety 'Doger'&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;There are therefore 8 treatments,
+i.e. all possible combinations of these three factors.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;In this question, you will be designing the experiment.&lt;/p&gt;&lt;br&gt;&lt;p&gt;These are difficult times.&amp;nbsp; Research money is tight and thus you can only
+have a small greenhouse to do this experiment.&amp;nbsp;
+There are &lt;strong&gt;six north facing &lt;/strong&gt;experimental
+units (plots) and &lt;strong&gt;six south facing &lt;/strong&gt;plots.&amp;nbsp; It is known from prior experiments in the
+greenhouse that there is a substantial difference in yields between the two sides
+of the greenhouse.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;div align="center"&gt;
+
+&lt;table border="1" cellspacing="0" cellpadding="0"&gt;
+ &lt;tbody&gt;&lt;tr&gt;
+  &lt;td width="102" valign="top"&gt;
+  &lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width="66" valign="top"&gt;
+  &lt;p align="center"&gt;Aspect&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width="123" valign="top"&gt;
+  &lt;p align="center"&gt;&amp;nbsp;&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width="102" valign="top"&gt;
+  &lt;p align="center"&gt;North facing&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width="66" rowspan="7" valign="top"&gt;
+  &lt;p align="center"&gt;Alley way&amp;nbsp; for access&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width="123" valign="top"&gt;
+  &lt;p align="center"&gt;South facing&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width="102" valign="top"&gt;
+  &lt;p align="center"&gt;1&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width="123" valign="top"&gt;
+  &lt;p align="center"&gt;1&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width="102" valign="top"&gt;
+  &lt;p align="center"&gt;2&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width="123" valign="top"&gt;
+  &lt;p align="center"&gt;2&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width="102" valign="top"&gt;
+  &lt;p align="center"&gt;3&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width="123" valign="top"&gt;
+  &lt;p align="center"&gt;3&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width="102" valign="top"&gt;
+  &lt;p align="center"&gt;4&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width="123" valign="top"&gt;
+  &lt;p align="center"&gt;4&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width="102" valign="top"&gt;
+  &lt;p align="center"&gt;5&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width="123" valign="top"&gt;
+  &lt;p align="center"&gt;5&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+  &lt;td width="102" valign="top"&gt;
+  &lt;p align="center"&gt;6&lt;/p&gt;
+  &lt;/td&gt;
+  &lt;td width="123" valign="top"&gt;
+  &lt;p align="center"&gt;6&lt;/p&gt;
+  &lt;/td&gt;
+ &lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;The second stage will be carried out
+in the same greenhouse.&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Procedure&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-size: 15.0144px;"&gt;Decide on your overall strategy for the trial. Are you going to design both stages in the experiment now, or will you plan the second stage, based on the results from the first stage?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 15.0144px;"&gt;Are you going to use all treatments in each stage. If yes, then how will you allocate them in the plots? If no, then which treatment will you omit? How will you allocate those that remain to the plots?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 15.0144px;"&gt;Decide what treatments you want to apply to particular plots in the first stage of the experiment. You can then access the interactive question below to fill out the treatments in the plots for the first stage of the experiment.&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692972924</timemodified>
+  </label>
+</activity>

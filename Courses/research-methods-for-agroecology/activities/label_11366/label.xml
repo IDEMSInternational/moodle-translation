@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2203" moduleid="11366" modulename="label" contextid="86616">
+  <label id="2203">
+    <name>Examining variability within a dataset is importan...</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span id="docs-internal-guid-d2e4b59f-7fff-809c-9abe-d86e5b67da60"&gt;Examining variability within a dataset is important. While summary statistics such as the mean offers good insights, they might overlook the full scope. Variability offers a more comprehensive understanding, aiding in drawing accurate conclusions and contextualising point statistics like the mean.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692903404</timemodified>
+  </label>
+</activity>

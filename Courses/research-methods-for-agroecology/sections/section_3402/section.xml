@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="3402">
+  <number>17</number>
+  <name>Climatic Data for Niger (1945-1980)</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11332,11333</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1692800738</timemodified>
+  <course_format_options id="1509">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>1</value>
+  </course_format_options>
+  <course_format_options id="1507">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>11</value>
+  </course_format_options>
+  <course_format_options id="1508">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

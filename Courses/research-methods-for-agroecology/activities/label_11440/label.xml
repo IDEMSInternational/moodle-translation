@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2229" moduleid="11440" modulename="label" contextid="86695">
+  <label id="2229">
+    <name>The error term, often referred to as the “residual...</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-df938ad5-7fff-6867-6594-ad1f0ed04914"&gt;The error term, often referred to as the “residuals”, is the difference between the observed values and the predicted values when the model is fitted to the observed data. This disparity shows the variability in the data that is not accounted for.&lt;/span&gt;&lt;/p&gt;&lt;span id="docs-internal-guid-df938ad5-7fff-6867-6594-ad1f0ed04914"&gt;&lt;br&gt;&lt;p dir="ltr"&gt;&lt;strong&gt;We can look at the distribution of the error term to gain valuable insights into the model performance.&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p dir="ltr"&gt;When looking at the distribution of your error term, we can try to answer the questions: Is there more variability we can account for? And, is there variability that has not been accounted for?&lt;/p&gt;&lt;/span&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693170174</timemodified>
+  </label>
+</activity>

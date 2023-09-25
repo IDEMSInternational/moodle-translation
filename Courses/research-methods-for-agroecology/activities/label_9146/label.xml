@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1566" moduleid="9146" modulename="label" contextid="82008">
+  <label id="1566">
+    <name>A data rectangle is a term used to describe the sh...</name>
+    <intro>&lt;p&gt;A data rectangle is a term used to describe the shape that a data set should take to facilitate data analysis. It is the basis for many features in a spreadsheet, such as Pivot Tables and Filtering.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;A data rectangle consists of a single row of column headings, where each column has a unique name. Furthermore, each column has the same length, and each row has a meaning. It's also important to keep the data to one rectangle per sheet. For instance, summary data should be kept separate from the raw data.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Data in this simple rectangular format is ready for analysis.&lt;/strong&gt; There are the units being studied, given as the rows, and the properties of the units, given as the columns. The analyst can gather from glancing at the data what is being studied; if each unit is an individual, then each row is giving the properties of an individual.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Understanding every row and cell is essential when working with data, and this becomes much easier when you have a clear data rectangle to work with. The column heading determines the meaning of each cell, allowing you to make sense of the data. By following this simple format, you can ensure that your data is easy to work with. In addition, powerful features of excel, such as Pivot Tables and Filtering can be accessed with data in this format.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692560672</timemodified>
+  </label>
+</activity>

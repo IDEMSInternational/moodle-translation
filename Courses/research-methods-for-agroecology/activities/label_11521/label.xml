@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2284" moduleid="11521" modulename="label" contextid="86806">
+  <label id="2284">
+    <name>Recall in Distribution of an Error Term, we fit a ...</name>
+    <intro>&lt;p&gt;Recall in &lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=182#section-183"&gt;Distribution of an Error Term&lt;/a&gt;, we fit a linear model and a GLM to the data. We saw that the variabilities that each variable accounted for in each model was similar to one another. However, GLM and LM differed on which variables are significantly impacting the outcome variable.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The error distribution suggested to not use this model for LM, so we used a GLM instead.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img src="https://lh6.googleusercontent.com/Xct3oAmgwO-ufgyBkDTPmmCPJOFwsOiB2iR2Qeyh8nn8U0n2BctfzWXUfRUYH5bwhrvZtiwWL0zfPdnAPXVLsAIzGpvvrD_Q32ewfQnleKzkZa-maj4ck15ele9tz8nGvbsR2AiTTKZzKrd7-3Q6hZA" width="624" height="308"&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;However, we saw the ANOVA and Analysis of Variance are similar. This reinforces our point that the assumptions only come into play when calculating p-values. The ANOVA meanwhile is a purely descriptive process: The variability remains unaffected; our ability to access descriptive data is independent of assumptions.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Understanding your data and models is crucial to publish results, despite the seeming subtlety of the difference. Although the course doesn't dwell on model intricacies, the complexity of model selection, timing, and assumptions is evident. Should you incorrectly fit a linear model in publication, a good reviewer would critique and see that the normality assumption is not satisfied here therefore you should have transformed (such as a square root transformation) or used a GLM. When making decisions for publication, it is important to have a clear grasp to avoid misinterpretation. Seeking assistance from a statistician might be sensible, as they can guide model choice and offer better alternatives.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693232519</timemodified>
+  </label>
+</activity>

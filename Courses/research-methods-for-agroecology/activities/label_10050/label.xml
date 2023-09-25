@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1785" moduleid="10050" modulename="label" contextid="84111">
+  <label id="1785">
+    <name>The primary objective of the experiment is to inve...</name>
+    <intro>&lt;p&gt;The primary objective of the experiment is to investigate &lt;strong&gt;the causal relationship between the treatments and the outcome variable&lt;/strong&gt;, which &lt;strong&gt;remains a central focus in reporting the results&lt;/strong&gt;. In addition, due to the inherent constraints of the design, there are inevitable compromises in the comparisons made. These imperfections should be presented alongside the comparisons to provide a complete and honest assessment. Ensuring this transparency helps strengthen the results and additionally increases confidence as it allows for the experiment to be replicated under different conditions. We should not shy away from any shortcomings or areas for improvement in the design, but instead highlight these aspects. We promote transparency about mistakes and create an opportunity for others to learn from them, to help avoid the shortcomings to be repeated in studies performed by others, hence contributing to research in the field.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692965746</timemodified>
+  </label>
+</activity>

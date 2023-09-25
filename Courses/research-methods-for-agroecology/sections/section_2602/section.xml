@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="2602">
+  <number>164</number>
+  <name>Managing Comparison of Treatments in Pearl Millet Growth</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>9179,11428,11429</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1692989689</timemodified>
+  <course_format_options id="856">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="854">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>163</value>
+  </course_format_options>
+  <course_format_options id="855">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

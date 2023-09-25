@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2144" moduleid="11229" modulename="label" contextid="86175">
+  <label id="2144">
+    <name>In this illustrative example, a data set is used t...</name>
+    <intro>&lt;p&gt;In this illustrative example, a data set is used to illustrate using filtering in Excel to clean a data set.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;The Data Set&lt;/h3&gt;
+&lt;br&gt;
+&lt;p&gt;We use the following data set to illustrate the use of filtering. This is data giving the pulse of 60 individuals per minute. There are seven variables in this data:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;ID&lt;/strong&gt; The unique identifier of the individual.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Sex&lt;/strong&gt; The sex of the individual (Male or Female).&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Age&lt;/strong&gt; The age (years) of the individual.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Height&lt;/strong&gt; The height in centimetres of the individual.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Weight&lt;/strong&gt; The weight in kilograms of the individual.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Education&lt;/strong&gt; The highest education level that the individual has achieved.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Pulse&lt;/strong&gt; The heart rate of the individual per minute.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;p&gt;We have added some errors into this data for the purpose of this example to illustrate filtering in Excel.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;Inserting a Filter&lt;/h3&gt;
+&lt;br&gt;
+&lt;p&gt;First, highlight the data from the data frame that you want to contain the data, including the column headings. In general, this would usually be the entire data frame. In Excel, select `Insert &amp;gt; Table` from the ribbon.&lt;/p&gt;
+&lt;p&gt;We demonstrate using a filter with the Pulse data set.&lt;/p&gt;
+&lt;img src="@@PLUGINFILE@@/pivot_1.jpg" alt="filter_1
+" width="390" height="298" class="img-fluid atto_image_button_middle"&gt;&lt;br&gt;&lt;br&gt;
+&lt;p&gt; Once the data is as a Table, filters can be used. To filter the data, click on the arrow by the header for the column you want to filter. This gives the filter options for that variable - one or more options can be selected to filter the data: You can filter by a specific value, by text, numbers, dates, or apply more customised filters.&lt;/p&gt;
+&lt;br&gt;
+&lt;strong&gt;Factors&lt;/strong&gt;
+&lt;br&gt;
+&lt;p&gt; If you click to filter a factor column, the factor levels are displayed. This can show any discrepancies or typos in factor levels. In our example, we can see that "M" and "Male" are both used to denote "Male". Similarly, "F", "Female", and "Woman" are all used to denote "Female". We have therefore identified some issues in the data, so can now clean it to make it consistent throughout.&lt;/p&gt;
+&lt;img src="@@PLUGINFILE@@/filter_2.jpg" alt="pivot_2" width="602" height="258" class="img-fluid atto_image_button_middle"&gt;&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;Numerical Values&lt;/strong&gt;
+&lt;br&gt;
+&lt;p&gt;With numerical values, we can see each individual factor level, or we can filter by values. In our example, we can use the filter in the age column to detect individuals who are older than 100 or younger than 0.&lt;/p&gt;
+&lt;img src="@@PLUGINFILE@@/filter_3.jpg" alt="filter_3
+" width="602" height="296" class="img-fluid atto_image_button_middle"&gt;&lt;br&gt;&lt;br&gt;&lt;img src="@@PLUGINFILE@@/filter_4.jpg" alt="filter_4" width="602" height="284" class="img-fluid atto_image_button_middle"&gt;&lt;br&gt;&lt;br&gt;
+&lt;p&gt;Once the filter has been selected, we can see the rows that meet the criteria stated (here, older than 100 or younger than 0).&lt;/p&gt;
+&lt;p&gt;&lt;img src="@@PLUGINFILE@@/filter_5.jpg" alt="filter 5" width="602" height="283" class="img-fluid atto_image_button_middle"&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;We see that there is one individual with an age of 1992. Presumably here their year of birth has been entered instead of their actual age. We can verify this by liaising with experts or going back to the original data and correct it as necessary.&lt;/p&gt;&lt;b&gt;Removing a Filter&lt;/b&gt;&lt;br&gt;
+&lt;p&gt;To remove the filter we select the filter arrow and click “Clear Filter”&lt;/p&gt;
+&lt;img src="@@PLUGINFILE@@/filter_6.jpg" alt="filter 6" width="602" height="292" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;br&gt;
+&lt;strong&gt;Combining filters&lt;/strong&gt;
+&lt;p&gt;We can also combine filters to clean the data. For example, we look at the Education column and filter by "Postgrad".
+    If we then filter the ages to less than 20, we see that there is an individual who is 16 but has their highest education as a postgraduate student.
+    This is a value we should flag up and verify is correct since perhaps the age has been misspelt. We would expect a 16 year old to be studying their secondary education.&lt;/p&gt;
+&lt;img src="@@PLUGINFILE@@/filter_7.jpg" alt="filter 7" width="602" height="226" class="img-fluid atto_image_button_middle"&gt;&lt;br&gt;&lt;br&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692560390</timemodified>
+  </label>
+</activity>

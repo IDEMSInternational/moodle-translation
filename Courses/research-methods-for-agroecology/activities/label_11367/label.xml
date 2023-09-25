@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2204" moduleid="11367" modulename="label" contextid="86617">
+  <label id="2204">
+    <name>It is important to look at the variability within ...</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-584083ad-7fff-6006-ee97-112f1d7aa151"&gt;&lt;strong&gt;It is important to look at the variability within a data set, and not just the mean.&lt;/strong&gt; While metrics like the mean offer initial insights, they may not reveal the whole picture. Variability, on the other hand, gives light to the spread of the data, providing a more comprehensive understanding.&lt;/span&gt;&lt;/p&gt;&lt;span id="docs-internal-guid-584083ad-7fff-6006-ee97-112f1d7aa151"&gt;&lt;br&gt;&lt;p dir="ltr"&gt;For instance, consider a variable with an average of 10 and a standard deviation of 1 compared to another with a mean of 10 and a standard deviation of 5. What distinguishes these scenarios?&lt;/p&gt;&lt;br&gt;&lt;p dir="ltr"&gt;Variability essentially provides a context when looking at point statistics such as the mean, giving a clearer picture of the variables distribution. This insight is important for understanding the variables themselves, and hence drawing more accurate conclusions that impact the data.&amp;nbsp;&lt;/p&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692948329</timemodified>
+  </label>
+</activity>

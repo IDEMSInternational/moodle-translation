@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1573" moduleid="9153" modulename="label" contextid="82024">
+  <label id="1573">
+    <name>Illustrative Example: Using a PivotTable
+In this ...</name>
+    <intro>&lt;h2&gt;Illustrative Example: Using a PivotTable&lt;/h2&gt;
+&lt;p&gt;In this illustrative example, a data set is used to illustrate creating a PivotTable in Excel.&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;The Data Set&lt;/h3&gt;
+&lt;br&gt;
+&lt;p&gt;We use a survey data set to illustrate the use of a PivotTable. This survey is conducted in four out of ten of these villages shown below. The aim of the survey is to determine variables that affect the yield of rice. There are five other variables in the resulting data set from the survey: village, field, size, fertiliser, and variety.&lt;/p&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Village&lt;/strong&gt; is the village where the survey was performed: This survey looks at four villages - Nanda, Sabey, Kesen, Niko.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Field&lt;/strong&gt; is the field within a village where the crop was grown.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Size&lt;/strong&gt; is a measurement of the field size in acres.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Fertiliser&lt;/strong&gt; is the fertiliser amount. This is a numerical variable.&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Variety &lt;/strong&gt; is the type of variety of rice - there are three varieties: Old, New, and
+        Traditional.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;img src="https://learn.turing.ac.uk/draftfile.php/1505/user/draft/949342098/Aerial%20Photo.png" alt="Aerial image of the location of the ten villages." width="607" height="311"&gt;
+&lt;br&gt;
+&lt;h3&gt;Inserting a Pivot Table&lt;/h3&gt;
+&lt;p&gt;First, highlight the data from the data frame that you want to display in the Pivot Table, including the column headings. In general, this would usually be the entire data frame.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Then, open the Pivot Table option. This location depends on the spreadsheet being used. For two common spreadsheet software:&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;In Excel, this is under Insert &amp;gt; Pivot Table&lt;/li&gt;
+    &lt;li&gt;In Google Sheets, it is under the Data menu.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;img src="@@PLUGINFILE@@/pivot_1.png" alt="pivot table 1" width="391" height="298" class="img-fluid atto_image_button_middle"&gt;
+&lt;br&gt;
+&lt;p&gt;Then we can just click to insert the Pivot Table. It is recommended to insert it as a new sheet.&lt;/p&gt;
+&lt;img src="@@PLUGINFILE@@/pivot_2.jpg" alt="pivot table 2" width="334" height="291" class="img-fluid atto_image_button_middle"&gt;&lt;br&gt;&lt;br&gt;
+&lt;h3&gt;Configuring the table&lt;/h3&gt;
+&lt;p&gt;Once the pivot table sheet is opened, there is typically a window with four fields: Columns, Rows, Values, Filters.&lt;/p&gt;
+&lt;p&gt;The variables from your data selection can be dragged and dropped into the appropriate fields in this window. We will go through these four fields now.&lt;/p&gt;
+
+&lt;img src="@@PLUGINFILE@@/pivot_3.jpg" alt="pivot table 3" width="599" height="294" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Columns and Rows: Rearranging the Pivot Table&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We can move variables from Columns to Rows and vice versa. What happens to variables inputted in “Columns”? And how about for “Rows”?&lt;/p&gt;
+&lt;p&gt;&lt;img src="@@PLUGINFILE@@/pivot_4.jpg" alt="pivot table 4" width="602" height="293" class="img-fluid atto_image_button_middle"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;br&gt;
+
+&lt;p&gt;&lt;strong&gt;Values: Gaining Summary Statistics&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Drag the variable(s) to summarise into the Values field. In this example, this is the outcome variable, yield.&lt;/p&gt;
+&lt;p&gt;In our example, using “Sum” doesn’t make much sense. What does the sum of yield mean? We can change to a more appropriate summary statistic. We can change the summaries displayed by clicking on the value in the field, and explore this variable by changing the summary statistics.&lt;/p&gt;
+&lt;img src="@@PLUGINFILE@@/pivot_5.jpg" alt="pivot table 5" width="602" height="304" class="img-fluid atto_image_button_middle"&gt;&lt;br&gt;&lt;br&gt;
+
+&lt;p&gt;&lt;strong&gt;Filter: Subsetting the data&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We can refine the analysis by excluding or including specific values or ranges, such as a range of dates, factor levels, or within certain numerical ranges.&lt;/p&gt;
+&lt;p&gt;For example, perhaps we want to just consider a certain fertiliser level:&lt;/p&gt;
+&lt;img src="@@PLUGINFILE@@/pivot_6.jpg" alt="pivot table 6" width="602" height="301" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Refresh: Updating the table&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If the data in the data sheet changes, you can refresh the pivot table to update the summaries. In Excel, you can do this under PivotTable Analyse &amp;gt; Refresh&lt;/p&gt;
+&lt;img src="@@PLUGINFILE@@/pivot_7.jpg" alt="pivot table 7" width="602" height="296" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;
+&lt;h3&gt;&lt;br&gt;&lt;/h3&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692642579</timemodified>
+  </label>
+</activity>

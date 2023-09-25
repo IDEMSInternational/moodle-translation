@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="2547">
+  <number>68</number>
+  <name>Unbalanced Data</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11232</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1692655248</timemodified>
+  <course_format_options id="709">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>1</value>
+  </course_format_options>
+  <course_format_options id="707">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>44</value>
+  </course_format_options>
+  <course_format_options id="708">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

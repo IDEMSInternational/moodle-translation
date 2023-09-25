@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2215" moduleid="11401" modulename="label" contextid="86652">
+  <label id="2215">
+    <name>The process of managing comparisons in treatments ...</name>
+    <intro>&lt;p&gt;The process of managing comparisons in treatments is an important aspect of design, and this is covered in this section.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The approach to managing comparisons depends on the nature of the treatments themselves. Randomly sampling which treatment should be allocated to which statistical unit can follow the same approaches discussed in &lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=154"&gt;Controlling Variability&lt;/a&gt;. The difference now is that we are allocating treatments to experimental units rather than choosing which units from the population to sample.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Stratified sampling can be used in a treatment setting to create blocks, where comparisons happen primarily within blocks which are considered homogenous. Say an experiment is performed which aims to study the effect of fertiliser on crop yield across different farms. It is important to consider the unique characteristics and practices of each farmer. To minimise variability that may be contributed by this additional factor, we can stratify by farm when randomising treatments. Within each farm, the treatments are randomly assigned. This ensures an equal representation of treatments within each farm while still allowing for randomisation. This is a randomised block design (RBD): experimental units are divided into &lt;strong&gt;blocks&lt;/strong&gt; (in this case, farms) based on a characteristic that may influence the outcome. Treatments are randomly assigned within each block instead of across the entire sample to prevent one block containing a larger proportion of one treatment.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;However, to account for the treatments, some further points can be discussed.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Say we have two treatments: Fertiliser and Variety. There are two fertilisers and three varieties - this gives 2 x 3 = 6 experimental combinations:&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;F1V1 F2V1&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;F1V2 F2V2&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;F1V3 F2V3&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;By testing all possible combinations of the two factors on the dependent variable, we can better understand the relationship between the independent and dependent variables. If there are multiple treatments, a factorial design can be employed. In a factorial design, &lt;strong&gt;randomisation&lt;/strong&gt; is applied to assign all the treatment combinations to the experimental units.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Another consideration when managing comparisons is in &lt;strong&gt;replication&lt;/strong&gt; of treatments. This can ensure a more accurate representation of the population, increasing the reliability and validity of the study findings. Hidden replications may exist in factorial designs, and recognising them allows for the introduction of additional treatments without as much additional cost.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Overall, managing comparisons involves carefully selecting appropriate designs and layouts that account for the nature of the treatments, restrictions, and sources of variation. Replicating the treatments can strengthen the reliability of the study results. Overall, the layout of the design should be decided from the data you have. What is the best way to collect this data that ensures a reliable comparison of treatments?&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Replication, randomisation, and blocking are key principles of design when managing comparisons between a treatment and the outcome variable.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693039636</timemodified>
+  </label>
+</activity>

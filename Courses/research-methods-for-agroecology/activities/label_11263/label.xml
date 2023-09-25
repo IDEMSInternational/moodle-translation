@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2165" moduleid="11263" modulename="label" contextid="86217">
+  <label id="2165">
+    <name>We previously explored Pivot Tables as a means of ...</name>
+    <intro>&lt;p&gt;We &lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=44" target="_blank" title="$@COURSEVIEWBYID*238@$&amp;amp;section=44"&gt;previously explored Pivot Tables&lt;/a&gt; as a means of analysing data within a spreadsheet software. We now delve into a practical example of utilising R data within an R package, illustrating this with R-Instat.&lt;br&gt;&lt;/p&gt;&lt;span id="docs-internal-guid-63d5d45c-7fff-37aa-57cf-86e59b70e30b"&gt;&lt;span style="font-size: 0.9375rem;"&gt;In a spreadsheet software, creating a heatmap can involve applying conditional formatting to selected data. However, in R this can be achieved easily with the `rPivotTables` package with adding heatmaps. This enhances the analysis by visualising new insights in the data.&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;br&gt;
+    &lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;There is an R package called agriTutorial. &amp;nbsp;The data are five case
+            studies and the main part of the package is a vignette on the analyses of these
+            data.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;/span&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Rice Dataset:&lt;/strong&gt;&lt;/p&gt;
+&lt;/span&gt;
+&lt;p&gt;We illustrate this using the &lt;em&gt;Rice&amp;nbsp;&lt;/em&gt;data frame in the agriTutorial package. &lt;span&gt;This data is for an experiment which looked at variety, management, and nitrogen fertiliser as treatments. The aim of the experiment is to see which treatments can optimise the yield.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;We have the following variables:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Management:&amp;nbsp;&lt;/strong&gt;T&lt;span style="font-size: 0.9375rem;"&gt;hree practices to manage the yield Minimum, optimum, intensive&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;strong&gt;Variety:&amp;nbsp;&lt;/strong&gt;Three varieties: V1, V2, V3&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Nitrogen:&lt;/strong&gt;&amp;nbsp;Five different amount of Nitrogen fertilisers (0, 50, 80, 110, 140 kg/ha)&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Replicates:&amp;nbsp;&lt;/strong&gt;Three replicates of the treatment combinations&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Yield:&lt;/strong&gt;&amp;nbsp;The outcome variable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We can look at our data like the layout were in the field.&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;Nitrogen is on the
+        main plots, so a column is a main plot, divided into 9 for the split-plot and
+        split-split plot factors&lt;/span&gt;&lt;/p&gt;&lt;p&gt;The pivot table is also available &lt;a href="https://parentapp.shinyapps.io/proRUWA_shiny/" target="_blank"&gt;here&lt;/a&gt;&amp;nbsp;for an interactive display.&lt;/p&gt;&lt;p&gt;&lt;img src="@@PLUGINFILE@@/image.png" alt="" role="presentation" class="img-fluid" style="font-size: 0.9375rem;"&gt;&lt;/p&gt;
+
+&lt;p&gt;Starting with that,
+    if we then move the replicate out, we have our 45 treatment means:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="@@PLUGINFILE@@/image%20%281%29.png" alt="" role="presentation" class="img-fluid"&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;This is a great example of heat maps since we can clearly see the combination of factors which optimises the yield!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Turnip Example&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;We illustrate this using the&amp;nbsp;&lt;em&gt;Turnip&amp;nbsp;&lt;/em&gt;data frame in the agriTutorial package.&amp;nbsp;&lt;span&gt;This data is for an experiment which looked at how the spacing of the crop impacts the yield for turnips. To test this, two treatments were used - seed rates and row widths.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;We have the following variables:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;strong&gt;Density: &lt;/strong&gt;We have five seed rates 0.5, 2, 8, 20, 32 lb/acre&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Spacing:&amp;nbsp;&lt;/strong&gt;Row widths are 4, 8, 16, 32 inches&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;log_yield: &lt;/strong&gt;log yield of turnip (lb/plot). The logarithm was used to stabilise the variance (Mead, 1988)&lt;/li&gt;
+    &lt;li&gt;&lt;strong&gt;Replicate:&lt;/strong&gt; The treatments were replicated 3 times&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We can look at our data&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;The pivot table is also available&amp;nbsp;&lt;a href="https://parentapp.shinyapps.io/proRUWA_shiny/" target="_blank"&gt;here&lt;/a&gt;&amp;nbsp;for an interactive display.&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="@@PLUGINFILE@@/image%20%282%29.png" alt="" role="presentation" class="img-fluid" style="font-size: 0.9375rem;"&gt;&lt;span style="font-size: 0.9375rem;"&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;Then you can get
+    the treatment means by getting rid of the replicates:&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;img src="@@PLUGINFILE@@/image%20%283%29.png" alt="" role="presentation" class="img-fluid"&gt;&lt;/p&gt;
+
+&lt;p&gt;Now it is obvious
+    the lowest density is very different to the others.&amp;nbsp; Filter it out and
+    look:&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;img src="@@PLUGINFILE@@/image%20%284%29.png" alt="" role="presentation" class="img-fluid"&gt;&lt;/p&gt;
+
+&lt;p&gt;Aha, now the next
+    one is clearly less than the others and the high level of row spacing is
+    causing some problems.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Statistical packages are designed to enable users to effortlessly produce informative visualisations effectively.&amp;nbsp;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;Statistical packages are a good next step&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;&lt;strong&gt;Interactive Display&lt;/strong&gt;&lt;br&gt;For a more interactive display with rpivotTable, click &lt;a href="https://parentapp.shinyapps.io/proRUWA_shiny/" target="_blank" title="here"&gt;here&lt;/a&gt;.&lt;br&gt;&lt;br&gt;&lt;strong&gt;References&lt;/strong&gt;&lt;br&gt;&lt;/span&gt;&lt;em&gt;Gomez, K.A., &amp;amp; Gomez, A.A. (1984). Statistical procedures for agricultural research, 2nd edn. New York: Wiley.&lt;br&gt;Mead, R. (1988). The design of experiments. Statistical principles for practical application. Cambridge: Cambridge University Press.&lt;br&gt;&lt;/em&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692655711</timemodified>
+  </label>
+</activity>

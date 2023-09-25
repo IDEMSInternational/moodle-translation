@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="3467">
+  <number>232</number>
+  <name>Illustrative example: human urine as a fertiliser</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11472</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1693174091</timemodified>
+  <course_format_options id="1691">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="1689">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>229</value>
+  </course_format_options>
+  <course_format_options id="1690">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

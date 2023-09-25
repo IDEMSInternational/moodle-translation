@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2240" moduleid="11455" modulename="label" contextid="86711">
+  <label id="2240">
+    <name>The data can be downloaded from here. There are th...</name>
+    <intro>&lt;p&gt;&lt;a href="https://drive.google.com/drive/folders/1Qeqv3TYwTovmQooEqsE7r8RZglvGs4QD?usp=sharing"&gt;The data can be downloaded from here.&lt;/a&gt; There are three files: Small (10 replications), Medium (1000 replications), and Large (10000 replications). It is up to you which data you use.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693171814</timemodified>
+  </label>
+</activity>

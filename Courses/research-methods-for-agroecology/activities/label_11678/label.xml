@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2308" moduleid="11678" modulename="label" contextid="87019">
+  <label id="2308">
+    <name>The purpose of the exploration and interactions ph...</name>
+    <intro>&lt;p&gt;The purpose of the exploration and interactions phase was to gain an understanding of the data and hence identify the most important variables in terms of accounting for variations in the outcome.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;We are now ready to transition to the modelling stage. In this stage, the objective is to use the insights obtained from the exploration and interactions phase to construct a model using the variables and interactions that we identified influence variability. For instance, if an interaction was observed during the exploration of interactions, it's essential to incorporate it into the model.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;We should not restrict to just the variables and interactions that we observed in the exploration phase, however. If an interaction term is significant in the model, that wasn't identified during initial the data visualisation, it's important to then create a visualisation to observe it.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;With this, we can compare the outcomes of our ANOVA, which sheds light on the variables impacting variability, with the findings from our visualisations. The visualisation and modelling are telling you the same thing.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693383719</timemodified>
+  </label>
+</activity>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="2637">
+  <number>34</number>
+  <name>Abstract Concept</name>
+  <summary>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;strong&gt;Broadly, there are three types of study that all research fits into:&lt;/strong&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;strong&gt;opportunistic studies, which you have not designed;&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;surveys, where design protects from biases;&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;experiments, which identify causation.&lt;/strong&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;One study type isn’t better than the others, but the design process is more complex if we are opportunistically using existing data, surveying something, or testing to identify the cause of an effect. Each study type has its uses and challenges, and your research may combine several different study types.&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;b id="docs-internal-guid-63ffa7fe-7fff-cd56-ca1f-92a6eee080e7"&gt;&lt;img src="https://lh6.googleusercontent.com/WIqsj1eR3wx-jAegZTNfoJoCWWNT7FS0JjEIOHH7PXJYcCdnuMsiBeiD_tM0BQ8auJRapyIRHuqGckj9eMl-RBRtoFgMV7YC5uueh7uCqMg19sKPo_h_4dbweK82_wvy-BpoRrFzacI9F5mZ-2RlGPc" width="624" height="369"&gt;&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;Opportunistic studies make the most of what is there: this might mean using national meteorological or other existing databases, or it might mean changing your plans to accept an invitation to a publicity caravan. Depending on your research question, not using these sources of data would be a 'missed opportunity'! Being opportunistic is an efficient use of resources, but you cannot control biases, so it makes data analysis more complicated.&lt;/p&gt;&lt;p dir="ltr"&gt;Surveys are study types which seek to understand a thing or situation. Common survey methods include questionnaires, focus groups, or ethnographies. Through the design process, you can remove potential biases and make data analysis and interpretation easier. Survey studies require more time in the planning phases, but the results will be more representative of the subject under investigation.&lt;/p&gt;&lt;p dir="ltr"&gt;Experiments involve tests to identify the effect of a treatment, technique or process. It involves identifying something to be measured, and deciding how this will be measured. The design process for an experiment must be detailed and well controlled to accurately determine causation.&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;span&gt;A research question will suggest which study type(s) will be used. Most studies will be a combination of opportunistic and survey study as they seek to understand context and draw hypotheses; only if the question wants causal evidence is an experiment suitable.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11287</sequence>
+  <visible>1</visible>
+  <availabilityjson>{"op":"&amp;","c":[],"showc":[]}</availabilityjson>
+  <timemodified>1691316777</timemodified>
+  <course_format_options id="958">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="956">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>32</value>
+  </course_format_options>
+  <course_format_options id="957">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

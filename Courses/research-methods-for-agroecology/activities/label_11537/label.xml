@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2296" moduleid="11537" modulename="label" contextid="86823">
+  <label id="2296">
+    <name>In this section, the task is to delve into the com...</name>
+    <intro>&lt;p dir="ltr"&gt;In this section, the task is to delve into the complexities within the data by investigating the influence of multiple variables on the outcome. To achieve this, we can expand the dimensionality using tools like facets and layers within ggplot2.&lt;/p&gt;&lt;p dir="ltr"&gt;Additionally, you can filter to reduce the variability by focusing on specific components. By visualising within distinct factor levels, you can pinpoint the complexities that emerge within specific contexts.&lt;/p&gt;&lt;p dir="ltr"&gt;The ultimate goal is to uncover data complexities where outcomes potentially hinge on contextual factors.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693242804</timemodified>
+  </label>
+</activity>

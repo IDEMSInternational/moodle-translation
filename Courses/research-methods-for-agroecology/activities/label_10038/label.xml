@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1773" moduleid="10038" modulename="label" contextid="84088">
+  <label id="1773">
+    <name> Limitations in Experimental Design
+
+Experiments...</name>
+    <intro>&lt;h3&gt; Limitations in Experimental Design&lt;/h3&gt;
+&lt;br&gt;
+&lt;p&gt;Experiments have limitations. These can arise from various factors; for example, time constraints, financial limitations, or practical constraints such as field spacing. There is always more that can be investigated, but the line has to be drawn somewhere.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;We use the &lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=13" target="_blank"&gt;Soil Variability and Millet Growth Case Study&lt;/a&gt; to illustrate limitations in a study. This study involves a completely randomised experiment comprising 48 treatments derived from the combination of four factors. These factors encompass three levels of millet crop residues (CR), two levels of broadcast P, four genotypes, and a fourth factor varying across different years. A few extracts are given which highlight some limitations in this case study:&lt;/p&gt;
+&lt;br&gt;
+&lt;p style="text-align: center;"&gt;&lt;strong&gt;&lt;em&gt;The different effect of P on millet straw and grain yields across years may reflect the cumulative effect of P application on soil P supply to millet.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The experiment spans several years, hence treatments are applied to the same soil over many years. A limitation identified here is in the long-term effects and lag associated with using phosphorus in the soil over many years. This limitation is recognised by the authors and mitigated in their analysis.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Another section identified that the field where the study was conducted had undulated land, with irregular spots of discoloured soil:&lt;/p&gt;
+&lt;br&gt;
+&lt;p style="text-align: center;"&gt;&lt;strong&gt;&lt;em&gt;The field was gently undulated, but did not have a systematic slope in any particular direction. The soil was visually homo- geneous, except for several irregular spots (about 10 m2 in size) that were slightly different in color. Some of these spots may have derived from termite mounds, trees, or bushes, but these could not be identified initially.
+    [...]
+    Based on the farmer's information, a field map was drawn using a Geo- graphical Information System (GIS) and the following categories were defined [...] These five categories were used to derive incomplete blocks.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;This limitation emerged from the characteristics of the land, and subsequently, blocking was implemented later in the experiment to address these specific challenges.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;It is important to acknowledge and address limitations and compromises to make in an experiment. This transparency ensures the validity of the experiments findings. In addition, the researcher can make informed interpretations and draw appropriate conclusions from their results.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693237352</timemodified>
+  </label>
+</activity>

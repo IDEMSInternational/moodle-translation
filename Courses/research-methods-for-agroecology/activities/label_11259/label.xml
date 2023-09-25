@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2164" moduleid="11259" modulename="label" contextid="86213">
+  <label id="2164">
+    <name>Cameroon Data
+
+This rainfall data from Cameroon ...</name>
+    <intro>&lt;h3&gt;&lt;strong&gt;Cameroon Data&lt;/strong&gt;&lt;/h3&gt;
+&lt;br&gt;
+&lt;p&gt;This rainfall data from Cameroon has multiple sheets with one year of daily data on each sheet.&amp;nbsp;We still have rows and columns, and the data are there, but the layout is of results sheets, rather than a shape to facilitate analyses.&amp;nbsp;&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;&lt;img src="@@PLUGINFILE@@/image%20%281%29.png" alt="" role="presentation" class="img-fluid"&gt;&lt;/p&gt;
+
+&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;We have the days as the rows, and the different months are as columns. As a result,&amp;nbsp;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;we have some blank values in our data: April, for example, has 30 days not 31. Therefore we do not have a meaningful value here.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;There are also some summary values on each sheet.&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;This is an example of a data frame that is not in rectangular format.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;img src="@@PLUGINFILE@@/image%20%282%29.png" alt="" role="presentation" class="img-fluid"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;Recall that the Omani data included a sheet that was actually more of a p&lt;span style="font-size: 0.9375rem;"&gt;ivot table.&amp;nbsp;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;This example is like needing to reconstruct the Omani data sheets, if you only started with pivot tables.&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;strong&gt;&lt;em&gt;&lt;br&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;strong&gt;&lt;em&gt;How do we want this data to look?&lt;/em&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;We would entirely not want the bottom five rows: These are giving summaries and so do not belong in this format.&lt;/li&gt;
+    &lt;li&gt;We would then also want to have three variables instead of 13: Day, Month, and Value.&lt;/li&gt;
+&lt;/ul&gt;&lt;br&gt;&lt;br&gt;&lt;img src="@@PLUGINFILE@@/image%20%283%29.png" alt="" role="presentation" class="img-fluid"&gt;&lt;br&gt;&lt;br&gt;We would then want to repeat this for &lt;em&gt;all &lt;/em&gt;the data frames and add a&amp;nbsp;&lt;strong&gt;Year &lt;/strong&gt;variable&lt;strong&gt;.&lt;/strong&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692653930</timemodified>
+  </label>
+</activity>

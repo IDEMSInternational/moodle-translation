@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1775" moduleid="10040" modulename="label" contextid="84090">
+  <label id="1775">
+    <name>We designed an experiment here to decide what trea...</name>
+    <intro>&lt;p&gt;We &lt;a href="$@QUIZVIEWBYID*9030@$" target="_blank" title="$@QUIZVIEWBYID*9030@$"&gt;designed an experiment here&lt;/a&gt; to decide what treatments you want to apply to particular plots in the first stage of the experiment. Upon filling out the interactive question, you should have had a data set downloaded which gives the data resulting from your experiment.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;This section is on the analysis of this data.
+First, analyse your data using the appropriate software.&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;Then, design the second stage of your experiment and obtain a set of simulated yields for this stage as before. To do this, you can access the quiz again below this question.&amp;nbsp;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;Finally, analyse this second stage of the experiment.&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693036302</timemodified>
+  </label>
+</activity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2273" moduleid="11507" modulename="label" contextid="86790">
+  <label id="2273">
+    <name>Course evaluationDesign an evaluation for this cou...</name>
+    <intro>&lt;p dir="ltr"&gt;Course evaluation&lt;/p&gt;&lt;p dir="ltr"&gt;Design an evaluation for this course with a qualitative component.&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;ul&gt;&lt;ul&gt;&lt;li&gt;What is your research question?&lt;/li&gt;&lt;li&gt;What data will answer this question?&lt;/li&gt;&lt;li&gt;What data do you already have available to you?&amp;nbsp;&lt;/li&gt;&lt;li&gt;What methods would be appropriate?&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/p&gt;&lt;p&gt;Document your decisions in a report.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693216933</timemodified>
+  </label>
+</activity>

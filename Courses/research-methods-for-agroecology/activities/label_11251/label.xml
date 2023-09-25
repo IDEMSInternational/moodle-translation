@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2157" moduleid="11251" modulename="label" contextid="86205">
+  <label id="2157">
+    <name>Visualisations through graphs and tables can enhan...</name>
+    <intro>Visualisations through graphs and tables can enhance a data analyst’s understanding of variability in a data set. Multidimensional plots can be easily achieved to investigate the effect of the combination of several variables on the outcome. Statistical packages provide powerful tools and techniques that enable the creation of rich and informative visualisations, empowering researchers and analysts to gain deeper insights from their data.</intro>
+    <introformat>1</introformat>
+    <timemodified>1692580178</timemodified>
+  </label>
+</activity>

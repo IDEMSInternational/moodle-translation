@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="2658">
+  <number>259</number>
+  <name>Case study: data and data analysis in PICSA’s evaluation</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11515,11614</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1693473420</timemodified>
+  <course_format_options id="1021">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="1019">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>258</value>
+  </course_format_options>
+  <course_format_options id="1020">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

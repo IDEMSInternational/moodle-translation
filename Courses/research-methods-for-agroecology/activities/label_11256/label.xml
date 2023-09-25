@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2162" moduleid="11256" modulename="label" contextid="86210">
+  <label id="2162">
+    <name>A statistical package differs from a spreadsheet s...</name>
+    <intro>&lt;p&gt;&lt;strong&gt;A statistical package differs from a spreadsheet software by its emphasis on columns rather than individual cells&lt;/strong&gt;. Within a statistics software, data is organised in a structured manner, with each column representing a specific variable and attribute, and taking on a specific type, such as a factor, numerical, or date type.
+&lt;/p&gt;&lt;br&gt;&lt;p&gt;
+This column-centric approach in statistical packages enables a deeper understanding of the data and facilitates proper analysis. It ensures that relationships between variables are appropriately maintained, allowing for comprehensive exploration and interpretation of the data. This distinction between a statistical package and a spreadsheet software helps preserve the association between variables and hence minimise the risk of errors that can arise from considering cells in isolation.&lt;/p&gt;&lt;br&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692802072</timemodified>
+  </label>
+</activity>

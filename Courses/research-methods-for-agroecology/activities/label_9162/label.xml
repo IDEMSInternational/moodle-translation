@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1578" moduleid="9162" modulename="label" contextid="82035">
+  <label id="1578">
+    <name>The concept of unbalanced data refers to situation...</name>
+    <intro>&lt;p&gt;The concept of unbalanced data refers to situations where there are unequal group sizes across factor levels within a single factor or across different factors. Unbalanced data can occur due to missing data, the absence of data collection for certain groups, or combinations of factor levels. This can be by design, accidental, or due to problems during data collection.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;It is important to check data balance in all cases as you start your analysis as unbalanced data can affect interpretation.&lt;/strong&gt; Pivot tables are a quick and easy approach to assess the balance of data. They allow you to examine group sizes for factor levels across multiple factors, enabling identification of any imbalances.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692561378</timemodified>
+  </label>
+</activity>

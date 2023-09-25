@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1580" moduleid="9172" modulename="label" contextid="82049">
+  <label id="1580">
+    <name>Recognising the variability within a dataset is a ...</name>
+    <intro>&lt;p&gt;Recognising the variability within a dataset is a critical aspect of data analysis. &lt;strong&gt;While pivot tables are a useful tool for exploring data, they can mask the variability by presenting only a single summary statistic.&lt;/strong&gt; Standard deviation, for instance, is a common measure of variability, but it does not provide a complete picture of the nature of the variability. Therefore, it is essential to observe the variability in the data and acknowledge that there is more to it than just the summary statistics.
+&lt;/p&gt;&lt;br&gt;&lt;p&gt;
+Furthermore there is a distinction between visualising a summary statistic as opposed to the data itself. To clarify the distinction between these two types of visualisations, it is important to understand their purposes. For example, a scatter plot is a visualisation that represents the data points, allowing for a detailed examination of the distribution and relationships of variables. On the other hand, a bar chart provides a summarised representation of the data, typically presenting comparisons between categories
+  &lt;/p&gt;&lt;br&gt;&lt;p&gt;
+Visualising summaries is an important and informative stage when handling data, but can have some limitations: Summaries, such as bar charts, provide an overview and simplify the data, but may not capture the complete picture or reveal subtle patterns and variations present in the raw data. Relying solely on summaries can be misleading and potentially lead to incorrect conclusions.
+&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692561519</timemodified>
+  </label>
+</activity>

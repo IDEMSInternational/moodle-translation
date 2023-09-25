@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2205" moduleid="11370" modulename="label" contextid="86620">
+  <label id="2205">
+    <name>We use the Bengalaru data and more specifically lo...</name>
+    <intro>&lt;p&gt;We use the Bengalaru data and more specifically look at the variable "Average milk production per cow".&amp;nbsp;We want to find variables that account for the variability in this outcome.&lt;/p&gt;
+&lt;p&gt;Firstly, we can look at the distribution of this variable, and we can see that there is variability in the variable to account for.&lt;/p&gt;
+&lt;p&gt;&lt;img src="@@PLUGINFILE@@/image.png" alt="" role="presentation" class="img-fluid"&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;First we look at `n meals`. This is the number of meals that the cow consumed in a day, on average. We use an ANOVA as a descriptive tool to see how much variability our "Milking technique" variable accounts for:&lt;/p&gt;
+&lt;br&gt;
+&lt;pre tabindex="0" aria-label="Console Output" role="document" id="rstudio_console_output"&gt;&lt;span tabindex="-1" role="document"&gt;                     Df  Sum Sq Mean Sq F value
+`n meals`   1  12.05 12.0503  23.208 2.347e-06 ***
+Residuals 290 150.58  0.5192                      
+Total     291 162.63&lt;/span&gt;&lt;/pre&gt;
+&lt;br&gt;
+Here, "number of meals" has a sums of squares of 12.05.&lt;br&gt;The total sum of squares is 162.63, meaning that there is a residual of 150.58.&lt;br&gt;In other words, the number of meals accounts for some of the variability in the data - 12.05/162.63 * 100 = approximately 7.4% of variability is accounted for by our number of meals variable.&lt;br&gt;
+&lt;br&gt;This is good, but not enough! Let's try another variable. This time, the milking technique used is examised. `Milking technique`. This is a factor variable that says whether the milking technique was by Hand or Machine. Simple summary statistics show that by hand, there is a mean of 8.13 average litres per cow (sd = 4.08), and by machine there is&amp;nbsp;a mean of 12.3 average litres per cow (sd = 6.58). This suggests that some variability in the Average milk production per cow variable may be accounted for by "Milking technique".
+&lt;br&gt;
+&lt;pre tabindex="0" aria-label="Console Output" role="document" id="rstudio_console_output"&gt;&lt;span tabindex="-1" role="document"&gt;                                  Df  Sum Sq Mean Sq F value     
+`n meals`             1  12.050 12.0503 23.6162 
+`Milking technique`   1   3.115  3.1152  6.1051 
+Residuals           289 147.464  0.5103                            
+Total               291 162.629&lt;/span&gt;&lt;/pre&gt;
+&lt;br&gt;
+&lt;p&gt;Number of meals accounts for a larger portion of variability than Milking technique, but there is still some variability accounted for by both variables. Together, both variables account for 9.3%.&lt;/p&gt;
+&lt;p&gt;We add some more variables in - Transect and Settlement.&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;pre tabindex="0" aria-label="Console Output" role="document" id="rstudio_console_output"&gt;&lt;span tabindex="-1" role="document"&gt;
+                     Df  Sum Sq Mean Sq F value
+`n meals`             1  12.050 12.0503 28.1502
+`Milking technique`   1   3.115  3.1152  7.2772 
+Transect              2  15.137  7.5684 17.6801
+Settlement            1   9.899  9.8986 23.1236
+Residuals           286 122.428  0.4281
+Total               291 162.629&lt;/span&gt;&lt;/pre&gt;
+&lt;br&gt;
+Overall, these four variables account for approximately 24.7% of variation in the Average milking amount. There is still a lot more to be accounted for in the data, and this can be found by continuing to add more variables to see the impact.</intro>
+    <introformat>1</introformat>
+    <timemodified>1692903271</timemodified>
+  </label>
+</activity>

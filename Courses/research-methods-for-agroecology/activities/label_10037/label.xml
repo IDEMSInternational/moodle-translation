@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1772" moduleid="10037" modulename="label" contextid="84087">
+  <label id="1772">
+    <name>There is no universally perfect design for conduct...</name>
+    <intro>&lt;p&gt;There is no universally perfect design for conducting experiments. In addition, this example (with 8 treatments in blocks of size 6) is deliberately one for which the standard theory is not available. &lt;strong&gt;The process of designing an experiment often involves making compromises&lt;/strong&gt; due to various factors such as financial limitations or more practical restrictions related to the study.
+&lt;/p&gt;&lt;br&gt;&lt;p&gt;
+While there is no "best" design, there are principles to indicate that some designs are still better than others. For example just choosing two of the eight treatments and repeating them three times in each block, would be a poor design.  It is important to have a design that can be justified.
+&lt;/p&gt;&lt;br&gt;&lt;p&gt;
+It is important to understand the research questions and objectives, to develop an appropriate design.. This understanding helps identify the limitations in the study, and hence determine which trade-offs are necessary.
+&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692887495</timemodified>
+  </label>
+</activity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2190" moduleid="11345" modulename="label" contextid="86580">
+  <label id="2190">
+    <name>Extra Material: What is a factor?
+
+The notion of...</name>
+    <intro>&lt;h2&gt;Extra Material: What is a factor?&lt;/h2&gt;
+&lt;br&gt;
+&lt;p&gt;The notion of a factor is relatively recent. Historically, in statistics all variables were analysed numerically. This is reflected today in a lot of statistics packages; for example, SAS and SPSS. However, in the 80/90s, the concept of grouping variables was introduced. These are factors, and they quickly became a prominent element when handling data.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;A factor variable is built of several levels. Two attributes where a factor variable differs from a numerical variable are in Order and Magnitude.&lt;/p&gt;
+&lt;br&gt;
+&lt;h4&gt;Order&lt;/h4&gt;
+&lt;br&gt;&lt;p&gt;By default, a factor variable does not have an order to them. For example, if you think of sex then we might have “Male”, “Female”, and “Other”. These variables are unordered.&lt;br&gt;However, if you think of age, then we have an order: Someone aged 40 is older than someone aged 39.&lt;br&gt;This does not mean, however, that a factor cannot have an order. We can impose an order onto a factor. For example, with Month we can have a factor with an order. This is known as an Ordered Factor.&lt;/p&gt;
+&lt;br&gt;
+&lt;h4&gt;Magnitude&lt;/h4&gt;
+&lt;br&gt;&lt;p&gt;Even if a factor has an order, there is not a well-defined magnitude unless the user gives it to them. By this, we mean the “distance between factor levels”.&lt;/p&gt;
+    &lt;p&gt;If we use the example of Month, we might have “January”, “March”, “August”, “December”. We as the statistician know that these months are not equally ordered. However, by default the software does not know this and assumes an equal distance between factor levels.&lt;/p&gt;&lt;br&gt;
+    &lt;p&gt;When might magnitude matter? If there is a well-defined magnitude then we can calculate statistics like we would calculate for a numerical variable, such as the average.&lt;/p&gt;
+    &lt;p&gt;If we think of a survey that asks a question with a likert scale output with five levels:&lt;/p&gt;
+    &lt;p&gt;&lt;em&gt;Very Bad, Bad, Neutral, Good, Very Good.&lt;/em&gt;&lt;/p&gt;
+    &lt;p&gt;Would we want this to have equal spacing?&lt;/p&gt;
+    &lt;ul&gt;
+        &lt;li dir="ltr" aria-level="3"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;em&gt;Is the spacing 1, 2, 3, 4, 5?&amp;nbsp;&lt;/em&gt;(i.e., equal)&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="3"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;span&gt;&lt;em&gt;Is the spacing -5, -1, 0, 1, 5?&amp;nbsp;&lt;/em&gt;(i.e., the extremities are affecting the average more. Inidivduals with extreme opinions are affecting the average more - they have a larger weighting than those who are saying good/bad). Does this make sense in your context?&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;
+&lt;h4&gt;What’s the difference then?&lt;/h4&gt;
+&lt;br&gt;&lt;p&gt;By default a factor does not have an order or magnitude. However, a factor variable can have an order and it can have a magnitude, like a numerical variable. So what is the difference?&lt;/p&gt;&lt;p&gt;A factor variable is analysable on grouping variables. You can look at how the trend of different numerical variables alter for different factor levels. We can see how the trend of a numerical variable alters within a factor level.&lt;/p&gt;
+&lt;p&gt;We can then compare that trend between factor levels. This can help evaluate: d&lt;span style="font-size: 0.9375rem;"&gt;oes one factor level have a larger average than another? Is there a difference in the outcome variable for different factor levels?&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;If these factors are ordered, or have some level of magnitude, then we can include that in the analysis when looking at how numerical variables change across these factor levels.&lt;/p&gt;&lt;br&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692805041</timemodified>
+  </label>
+</activity>

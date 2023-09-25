@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="2649">
+  <number>248</number>
+  <name>Qualitative Research Methods</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11499</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1693215484</timemodified>
+  <course_format_options id="994">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>1</value>
+  </course_format_options>
+  <course_format_options id="992">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>247</value>
+  </course_format_options>
+  <course_format_options id="993">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2216" moduleid="11403" modulename="label" contextid="86654">
+  <label id="2216">
+    <name>Replication, randomisation, and blocking are key p...</name>
+    <intro>&lt;p&gt;Replication, randomisation, and blocking are key principles of design when managing comparisons between a treatment and the outcome variable. However, there are additional design points to account for. We go through two examples here:&lt;/p&gt;
+&lt;br&gt;
+&lt;h4&gt;Example I&lt;/h4&gt;
+&lt;p&gt;The nature of the treatments can add a new level of complexity to the design. Consider instead an experiment with two treatments: irrigation systems and crop varieties, with two and four levels respectively. In a factorial design we now have eight treatment combinations.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;There is a practical limitation in this experiment since applying irrigation is only feasible on large plots. However, we don't need a large plot for the varieties. So we would use a large plot for irrigation, and split each large plot into four sub-plots for the four varieties. Here, we first randomise the irrigation systems to the large plots, and then randomise the four varieties within the large plots to the sub-plots. This is a split plot design with two plots: the main plot and the sub-plot. The main plot is the large plot where the impractical treatment (irrigation) is assigned, while the subplots within the main plot represent smaller units where the easier-to-apply treatment (crop variety) is assigned. This design accounts for the impractical or infeasible issues in the study, but introduces multiple levels of error (main plot error and sub-plot error), necessitating careful analysis.&lt;/p&gt;
+&lt;br&gt;
+&lt;h4&gt;Example II&lt;/h4&gt;
+&lt;p&gt;Suppose that one outcome variable is determined by a qualitative assessment where the farmers were asked to look at their yield or output. If there are two treatments, a strip-plot design might be considered. In a strip-plot, the farmer can visually examine the yield by standing at one point and looking down the field for one treatment and then turning around to look the other way for the other treatment. However, these designs add complexity due to the main effects and interactions between factors. Like a split plot, a biological and practical aspect can sometimes trump statistical aspects, hence layouts such as strip plots and split plots may be considered in the design to manage comparisons.&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Overall, the layout of the design should be decided from the data you have, and alters depending on the context. There are key principles to adhere to, but additionally other concepts that may be considered in particular instances.&lt;/strong&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693004798</timemodified>
+  </label>
+</activity>

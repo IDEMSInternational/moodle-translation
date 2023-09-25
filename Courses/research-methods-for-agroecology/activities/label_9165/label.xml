@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1579" moduleid="9165" modulename="label" contextid="82039">
+  <label id="1579">
+    <name>Anscombe’s Quartet
+
+Anscombe's Quartet is a set ...</name>
+    <intro>&lt;h3&gt;Anscombe’s Quartet&lt;/h3&gt;
+&lt;br&gt;
+&lt;p&gt;Anscombe's Quartet is a set of four scatterplots that have the same mean, standard deviation, and correlation. However,&amp;nbsp;they all have very distinct and different stories when we visualise them.&lt;/p&gt;
+&lt;p&gt;Data summaries such as means, standard deviations, and correlations are important - but depending solely on them can be risky. Incredibly different datasets can yield comparable outcomes.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;strong&gt;&lt;img width="416px;" height="303px;" src="https://lh4.googleusercontent.com/nwYTsqAxbkZN1fIkhSd-a5NTCbHX8gx6e2qHMGjHcuwqke93EbnEJZC3JxqtavQTT-LQS-EyrNpoO7baDSIVU9IgqkpMPh65F7gEyYKfROiTg6WD5aIBZCIRWfSQsAtReraYk6ETXB5XVoiRK0_nDZwQ_w=s2048"&gt;&lt;/strong&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;There is more information on this given &lt;a href="https://blog.revolutionanalytics.com/2017/05/the-datasaurus-dozen.html"&gt;here&lt;/a&gt;.&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;But, in brief, these simple statistics are not enough to illustrate the data. We need to dig deeper to truly understand the data and patterns within it.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;This has been taken a step further to give: &lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;The Datasaurus Dozen&lt;/h3&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img width="941px;" height="378px;" src="https://lh6.googleusercontent.com/LmipolyL-REGpdXhtELDIN9H06pWmx4P6beNgsQBeWfZpLy_ALXeJNULW8YfCzj6A94RDyR_3f9prrRPFqUYpB72vT60OBa3TIJdRrC_y-YfR0y022eFjVs05mkJy_T4lSIGAradnNbtaUQe8in7FQ=s2048" alt="The Datasaurus Dozen (Revolutions)"&gt;&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;&lt;span id="docs-internal-guid-05a6bc46-7fff-5555-bc6f-663fc892b1a1"&gt;
+    &lt;p dir="ltr" style=""&gt;Here we see 12 plots, each with the same mean, standard deviation, and correlations (to 2dp):&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;&lt;/p&gt;
+    &lt;ul style=""&gt;
+        &lt;li style=""&gt;Same mean and standard deviation for X in all these plots (to 2dp);&lt;/li&gt;
+        &lt;li style=""&gt;Same mean and standard deviation for Y in all these plots&amp;nbsp;(to 2dp);&lt;/li&gt;
+        &lt;li style=""&gt;Same correlation between X and Y&amp;nbsp;(to 2dp).&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;But, we can see that these statistics are not enough to describe the patterns in the data. The scatterplots are still displaying completely different plots&lt;/p&gt;
+  &lt;br&gt;
+  &lt;h3&gt;References&lt;/h3&gt;
+&lt;br&gt;
+&lt;p&gt;http://blog.revolutionanalytics.com/2017/05/the-datasaurus-dozen.html&lt;/p&gt;&lt;/span&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692561495</timemodified>
+  </label>
+</activity>

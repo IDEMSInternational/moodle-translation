@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2222" moduleid="11418" modulename="label" contextid="86669">
+  <label id="2222">
+    <name>
+
+We look at an example to demonstrate how incre...</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span style="font-weight: bolder; font-size: 0.9375rem;"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;/p&gt;&lt;span&gt;&lt;span id="docs-internal-guid-82aaa831-7fff-4b54-965d-61a18f265b8c" style=""&gt;&lt;span style="font-size: 0.9375rem;"&gt;We look at an example to demonstrate how increasing the sample size affects the p-value.&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;strong&gt;The methodology:&lt;/strong&gt;&lt;br&gt;&lt;/span&gt;
+&lt;p&gt;&lt;/p&gt;&lt;span&gt;
+    &lt;ul&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;Loop through increasing sample sizes from 10 to 200 in steps of 10.&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;For each sample size, generate random data for two variables:&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;ul&gt;
+            &lt;li dir="ltr" aria-level="2"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;X is normally distributed with a mean of 0 and a standard deviation of 1&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li dir="ltr" aria-level="2"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;Y is normally distributed with a mean of 0.5 and a standard deviation of 1&lt;/p&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;Then perform a t-test to test for a difference in means. This gives a p-value.&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;Plot the Sample Size against the resulting P-Value&amp;nbsp;&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;The graph should show a trend of the p-value decreasing as the sample size increases.&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;Keep in mind that the results will vary due to the randomness in data generation.&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;&lt;br&gt;&lt;br&gt;
+    &lt;p dir="ltr"&gt;&lt;img src="https://lh6.googleusercontent.com/XZtbulISMNIemrRe9AVhTDQefXU6qqgP-6psv73MaKUWBUpBWc6_eM0Hxx0B5NFa2anfS6peg2J2lOE_IuJv1obpVlGU1kfE8tCScF5dm_JuYevesh0Ag5r-EPKOFdqlz6Fo2StIIjr9nXCwTRxhKy0" width="624" height="357"&gt;&lt;/p&gt;&lt;br&gt;
+    &lt;p dir="ltr"&gt;If the sample size is large enough then the p-value is significant.&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;This does not mean that our two random values are any more related when we have enough data - just that the sample size in the model is large enough to give confidence that the observed differences are not merely due to chance.&lt;/span&gt;&lt;/p&gt;&lt;br&gt;
+    &lt;p dir="ltr"&gt;&lt;strong&gt;Changing Parameters&lt;/strong&gt;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;We can see that the threshold for significant p is different for different scenarios.&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;What happens if you change bits of it?&lt;/span&gt;&lt;/p&gt;
+    &lt;p dir="ltr"&gt;If we set X~N(0, 1) and Y~N(0.1, 1) we need a larger sample size. This is because now our means are closer, and we are testing for a difference in means.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Similarly if we increase the standard deviation then there is more fluctuation. It is harder to see a difference in means, and so more data is needed to get a significant t-test.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;&lt;img src="https://lh4.googleusercontent.com/ZfMjF3DXnELTnV03Ofiy9TOPT0-qMt-R2YuXb-fFy5yUQtJ2QdMGoUskxUZOzm38FAFedIjIRGHCYVK4EG5iSdLOAus6HniCV9wnOP7-n_4N79FI6uQc0eIsWKO1pKKS_vVu1kGBXUjxla0CRARvyqk" width="624" height="357"&gt;&lt;/p&gt;&lt;br&gt;
+    &lt;p dir="ltr"&gt;&lt;img src="https://lh4.googleusercontent.com/vNRcwxN8W0bFosOEi8uZXU_01mJi-aI-puyJVlVdM-ikCgpoz9ss2jKPUs6-7VvE-cTJhN3KeEgETkkYPvzc8Gzk4OIxBwAQc5HaRjjdHrNN5ocysRi93-hZ69dyWSCxNqKP62p567FZtYQUoImb-XU" width="624" height="357"&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;
+    &lt;p dir="ltr"&gt;Below is an R function to try it out yourself. You can try &lt;a href="https://parentapp.shinyapps.io/proRUWA_SampleSize/" target="_blank"&gt;online here&lt;/a&gt;.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;Otherwise, download the following file into R. Run the file, and then run the function by writing in R:&lt;/p&gt;
+    &lt;pre tabindex="0" aria-label="Console Output" style="text-align: center;"&gt;p_value_and_n(min = 10, max = 200, by = 10, mean_y = 0.5, sd_y = 1)&lt;/pre&gt;
+  You can change the parameters in R.&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;Here,&lt;/span&gt;&lt;br&gt;
+    &lt;ul&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;/p&gt;&lt;pre tabindex="0" aria-label="Console Output"&gt;min:&lt;/pre&gt; the smallest sample size to look at (do not go below 10).
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;/p&gt;&lt;pre tabindex="0" aria-label="Console Output"&gt;max:&lt;/pre&gt; the largest sample size to look at.
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;/p&gt;&lt;pre tabindex="0" aria-label="Console Output"&gt;by:&lt;/pre&gt; increments of sample size to increase from min to max in.
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;/p&gt;&lt;pre tabindex="0" aria-label="Console Output"&gt;mean_y:&lt;/pre&gt; the mean of the Y variable.
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;/p&gt;&lt;pre tabindex="0" aria-label="Console Output"&gt;sd_y:&lt;/pre&gt; the SD of the Y variable.
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/span&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693004509</timemodified>
+  </label>
+</activity>

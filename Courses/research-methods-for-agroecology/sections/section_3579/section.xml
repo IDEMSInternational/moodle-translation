@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="3579">
+  <number>273</number>
+  <name>Task</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11533</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1693226005</timemodified>
+  <course_format_options id="1803">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="1801">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>270</value>
+  </course_format_options>
+  <course_format_options id="1802">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

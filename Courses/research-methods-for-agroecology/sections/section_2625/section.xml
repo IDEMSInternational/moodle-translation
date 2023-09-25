@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="2625">
+  <number>23</number>
+  <name>Quiz: getting to grips with literature</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence></sequence>
+  <visible>0</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1692548856</timemodified>
+  <course_format_options id="922">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="920">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>20</value>
+  </course_format_options>
+  <course_format_options id="921">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

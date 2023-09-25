@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="2588">
+  <number>163</number>
+  <name>Managing Comparisons</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11399</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1686410340</timemodified>
+  <course_format_options id="814">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>1</value>
+  </course_format_options>
+  <course_format_options id="812">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>148</value>
+  </course_format_options>
+  <course_format_options id="813">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="3328">
+  <number>126</number>
+  <name>Task 2: interpretate your findings</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11217</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1691592631</timemodified>
+  <course_format_options id="1303">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="1301">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>124</value>
+  </course_format_options>
+  <course_format_options id="1302">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

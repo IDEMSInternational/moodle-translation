@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="3647">
+  <number>255</number>
+  <name>Illustrative example 2: value creation in a community</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11713</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1693336433</timemodified>
+  <course_format_options id="1856">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="1854">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>252</value>
+  </course_format_options>
+  <course_format_options id="1855">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

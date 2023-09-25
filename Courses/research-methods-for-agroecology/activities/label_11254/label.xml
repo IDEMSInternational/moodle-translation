@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2160" moduleid="11254" modulename="label" contextid="86208">
+  <label id="2160">
+    <name>Faceting is a powerful technique in the “grammar o...</name>
+    <intro>&lt;p&gt;Faceting is a powerful technique in the “grammar of graphics” (Wilkinson, 2012) that enables the analyst to &lt;strong&gt;create a series of plots in multiple panels based on one or two factor variables&lt;/strong&gt;. In a facet, each panel represents a different level or combination of the factor variable. Within each panel, the same choices within a plot (such as x and y variables) are repeated for each factor level (or combination of factor levels).
+&lt;/p&gt;&lt;br&gt;&lt;p&gt;
+The analyst can choose which axes to compare the plots along, depending on the nature of the factor variable itself: If the analyst wants to compare along the y axis, then they might find they can uncover insights by faceting along the x-axis, or vice versa. This can then create comparable, repeated plots, which allows for the user to visually analyse relationships in the data across different factor levels.
+&lt;/p&gt;&lt;br&gt;&lt;p&gt;
+Facets create a “table of graphs”, where each row or column corresponds to a specific factor level. Facets can be extended to two factors, resulting in a grid of plots, with one factor determining the rows and another factor determining the columns. This setup allows you to explore interactions and relationships between two categorical variables effectively.
+&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;em&gt;
+Wilkinson, L., 2012.&amp;nbsp;The grammar of graphics&amp;nbsp;(pp. 375-414). Springer Berlin Heidelberg.&lt;/em&gt;&lt;br&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692580328</timemodified>
+  </label>
+</activity>

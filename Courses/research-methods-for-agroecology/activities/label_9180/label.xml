@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1588" moduleid="9180" modulename="label" contextid="82059">
+  <label id="1588">
+    <name>A step beyond controlling for variability in a des...</name>
+    <intro>&lt;p&gt;A step beyond controlling for variability in a design is to test the effect of a treatment on an outcome variable. This is where a survey becomes an experiment.&lt;/p&gt;&lt;p&gt;
+  &lt;br&gt;
+&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The layout of an experiment is fundamental to understand the comparison between treatments.&lt;/strong&gt; The approach used in the layout of the experiment can optimise the information and inferences that come from the design, while also ensure that the comparisons being made are meaningful. The basic design principles relating to managing comparisons is in replication, randomisation, and blocking. &lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693038106</timemodified>
+  </label>
+</activity>

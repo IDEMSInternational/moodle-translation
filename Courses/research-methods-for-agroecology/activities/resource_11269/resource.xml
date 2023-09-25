@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2193" moduleid="11269" modulename="resource" contextid="86223">
+  <resource id="2193">
+    <name>Data Rectangles: Slides</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;Note that the Powerpoint version contains comments in the slides&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <tobemigrated>0</tobemigrated>
+    <legacyfiles>0</legacyfiles>
+    <legacyfileslast>$@NULL@$</legacyfileslast>
+    <display>0</display>
+    <displayoptions>a:1:{s:10:"printintro";i:1;}</displayoptions>
+    <filterfiles>0</filterfiles>
+    <revision>2</revision>
+    <timemodified>1692560647</timemodified>
+  </resource>
+</activity>

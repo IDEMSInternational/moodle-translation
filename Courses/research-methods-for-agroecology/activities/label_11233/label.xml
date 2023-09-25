@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2148" moduleid="11233" modulename="label" contextid="86179">
+  <label id="2148">
+    <name>Recognising variability in a dataset is important ...</name>
+    <intro>Recognising variability in a dataset is important in data analysis. Pivot Tables are useful for exploration, but can mask variability by focusing on a single summary statistic.</intro>
+    <introformat>1</introformat>
+    <timemodified>1692561554</timemodified>
+  </label>
+</activity>

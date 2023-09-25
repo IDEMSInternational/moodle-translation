@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="2517">
+  <number>148</number>
+  <name>Topic VI: Design principles</name>
+  <summary>&lt;p&gt;Designing an experiment is a critical part of the process for several reasons. A well-designed experiment can:&lt;/p&gt;
+&lt;br&gt;
+    &lt;ul&gt;
+        &lt;li&gt;
+            &lt;p&gt;Minimise the risk of errors or bias in the results, and maximise the usefulness of the findings;&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;p&gt;Minimise the cost and time spent;&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+            &lt;p&gt;Ensure that any ethical issues and feasibility constraints are thought through.&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;br&gt;
+&lt;p&gt;Designing an experiment involves considering the context of the research question. What are the objectives of the study? What data is necessary to answer the research question? Which statistical analyses are appropriate to use?&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;In this Topic, we look through different stages of the design process to examine key principles.&lt;/p&gt;</summary>
+  <summaryformat>1</summaryformat>
+  <sequence></sequence>
+  <visible>1</visible>
+  <availabilityjson>{"op":"&amp;","c":[],"showc":[]}</availabilityjson>
+  <timemodified>1692611472</timemodified>
+  <course_format_options id="802">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="800">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="801">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

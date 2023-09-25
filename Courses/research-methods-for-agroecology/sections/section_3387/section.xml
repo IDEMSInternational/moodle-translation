@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="3387">
+  <number>15</number>
+  <name>The Effect of Urbanisation, a Case Study of Dairy Production in India</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11317,11311,11321,11324</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1692539811</timemodified>
+  <course_format_options id="1464">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>1</value>
+  </course_format_options>
+  <course_format_options id="1462">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>11</value>
+  </course_format_options>
+  <course_format_options id="1463">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2278" moduleid="11432" modulename="resource" contextid="86687">
+  <resource id="2278">
+    <name>Slides (PDF) for 'Enabling Comparisons Determining Cause and Effect': Illustrative example</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <tobemigrated>0</tobemigrated>
+    <legacyfiles>0</legacyfiles>
+    <legacyfileslast>$@NULL@$</legacyfileslast>
+    <display>0</display>
+    <displayoptions>a:1:{s:10:"printintro";i:1;}</displayoptions>
+    <filterfiles>0</filterfiles>
+    <revision>2</revision>
+    <timemodified>1693037662</timemodified>
+  </resource>
+</activity>

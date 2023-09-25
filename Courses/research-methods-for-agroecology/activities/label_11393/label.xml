@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2211" moduleid="11393" modulename="label" contextid="86644">
+  <label id="2211">
+    <name>Variability can be controlled and managed through ...</name>
+    <intro>&lt;p&gt;Variability can be controlled and managed through the sample taken. When there are no restrictions, the sample can be randomly chosen from the population without any constraints; for example, randomising which soil samples are used, or which farmers within a village are included in the study. Hence, each unit in the population is equally likely to be sampled.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;However, some situations can require accounting for specific restrictions in the design. For instance, say the study aims to investigate students performance at schools in a certain region. We could sample by choosing from all individuals in the population, but this might be time consuming on a practical level to travel between schools and individuals. Instead, we can randomly select a set of schools, and then randomly sample from a set number of students within the schools. This is stratified sampling: The population is divided into subgroups or “strata” based on a specific criteria, such as school or village (and the sample size of some villages is just zero). By stratifying the data, researchers can control the variability within each subgroup or “strata”. This can then give results which are more representative of the population.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Controlling and managing variability in research also involves considering the number of replicates and the sample size. A larger number of replicates and a larger sample size results in a more accurate representation of the population, leading to more reliable inferences, However, there are limited resources available, such as time and money.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;A small number of replicates may not provide an accurate representation of the population, leading to more biased findings. Hence, it is important to meet a balance on the sample size and number of replicates. To ensure valid conclusions, the aim is to maximise the sample size, given the availability of resources.&lt;/p&gt;
+&lt;br&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692991702</timemodified>
+  </label>
+</activity>

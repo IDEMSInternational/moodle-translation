@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2154" moduleid="11248" modulename="label" contextid="86202">
+  <label id="2154">
+    <name>The PICSA data is used to demonstrate filtering to...</name>
+    <intro>&lt;p&gt;The PICSA data is used to demonstrate filtering to clean data. In this data there are 934 variables and 416 rows, resulting in a very wide data frame. One quick easy way that the analysts may have performed some data cleaning when faced with the PICSA data set is by using Filters.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The analyst may have used filtering to validate the data against expected ranges or constraints. For example, for `Section/age`, they may have filtered out values that were negative or exceeded a certain threshold.&lt;/p&gt;
+&lt;img src="@@PLUGINFILE@@/filter_numeric.jpg" alt="An example of filtering a numerical variable" width="1111" height="709" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;br&gt;
+&lt;p&gt;Furthermore, the analysts of the PICSA data may have used filtering to identify outliers in numeric variables, such as a numeric measurement. Thresholds based on domain knowledge can be applied to identify any extreme values that are inputted which may be errors or unusual observations.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The analyst may have used filters to check for consistency in the data - identifying any potential typos or outliers. For example, one check that may have occurred by the analysts is that the individual districts given in the `Section/district` variable were all spelt correctly with consistent capitalisation throughout.&lt;/p&gt;
+&lt;img src="@@PLUGINFILE@@/filter_factor.jpg" alt="An example of filtering a factor variable" width="1017" height="838" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;br&gt;
+&lt;p&gt;This consistency check can be extended to ensure combinations of variables are valid and consistent. This helps identify any data entry errors or inconsistencies. For example, the participant is asked if they have any historical information. If they answer yes, they are given follow-up questions, otherwise they skip to the next section. Filtering can check that any individuals that have answered "no" do not have any values in their follow-up questions. Another example is that we can filter to Bole and see two community levels: Achubunyor and Kakiase. The analysts can then check that these are the expected communities for this district.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The PICSA data set includes dates and timestamps. These may have been filter to ensure that the timestamps fall within the expected time range. This is particularly useful to identify data entries that may have been added after the study had completed.&lt;/p&gt;
+&lt;img src="@@PLUGINFILE@@/filter_date.jpg" alt="An example of filtering a date variable" width="1189" height="640" class="img-fluid atto_image_button_text-bottom"&gt;&lt;br&gt;&lt;br&gt;
+&lt;p&gt;A more complex use of the filtering is in data transformation. A filter may be applied to then recode variables within that filter level. For instance, if the 'Community' variable is always coded as 1 or 2 regardless of the district, filtering can be applied to recode these values differently for each district. More complex derived variables can also be created using filters.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Finally, filtering is one approach to check for &lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=63" target="_blank"&gt;missing values&lt;/a&gt;.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Filtering in a datasheet software is a powerful approach to improve the quality and accuracy of the dataset. However, note that filtering is one step in the data cleaning process and should be combined with other techniques to ensure the dataset is ready for analysis.&lt;/p&gt;
+&lt;br&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692653268</timemodified>
+  </label>
+</activity>

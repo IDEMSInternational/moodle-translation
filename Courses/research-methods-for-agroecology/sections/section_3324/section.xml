@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="3324">
+  <number>124</number>
+  <name>Analysis and Interpretation</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11266,11213</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1691592227</timemodified>
+  <course_format_options id="1291">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>1</value>
+  </course_format_options>
+  <course_format_options id="1289">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>111</value>
+  </course_format_options>
+  <course_format_options id="1290">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

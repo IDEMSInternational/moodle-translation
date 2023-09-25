@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1567" moduleid="9147" modulename="label" contextid="82009">
+  <label id="1567">
+    <name>Bengalaru Data
+Consider the Bengalaru data Case S...</name>
+    <intro>&lt;h3&gt;&lt;strong&gt;Bengalaru Data&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Consider the &lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=15" target="_blank"&gt;Bengalaru data Case Study&lt;/a&gt; on Indian Dairy Cattle Farms. When you open &lt;a href="$@RESOURCEVIEWBYID*11321@$" target="_blank"&gt;this data&lt;/a&gt; in a spreadsheet software like Excel, you will notice that it consists of 340 rows and multiple columns. The exact number of columns cannot be determined precisely due to three rows of column headings of different sizes:&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;span&gt;&lt;span id="docs-internal-guid-3305fa72-7fff-4fc4-fa8a-fc25b4258346" style=""&gt;&lt;br&gt;
+        &lt;ul&gt;
+            &lt;li dir="ltr" aria-level="1"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;The first row contains ten columns, some of which are unnamed, while others provide descriptions of the variables found in the second row.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li dir="ltr" aria-level="1"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;The second row consists of 113 individually named columns.&amp;nbsp;&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li dir="ltr" aria-level="1"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;The third row has 113 columns providing details for the corresponding variables in the second row.&lt;/p&gt;
+            &lt;/li&gt;
+            &lt;li dir="ltr" aria-level="1"&gt;
+                &lt;p dir="ltr" role="presentation"&gt;Finally, the fourth row marks the beginning of the data by presenting the first line of information for the first individual. This data continues to the end of the data frame.&lt;/p&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;&lt;/span&gt;&lt;br&gt;&lt;span id="docs-internal-guid-9bb8a894-7fff-14c3-45b1-4e3bbb35988c"&gt;Attempting to create a plot with the Indian Dairy Farm data can be challenging due to the presence of multiple column headers, which deviates from the data rectangle format.&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;span id="docs-internal-guid-bce6e46c-7fff-2d4a-e661-45931ef710bf"&gt;&lt;p dir="ltr" style=""&gt;We often find initial tidying steps are needed to put data into a simple rectangular format.&lt;/p&gt;&lt;/span&gt;&lt;/span&gt;&lt;img src="@@PLUGINFILE@@/image.png" alt="" role="presentation" class="img-fluid"&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692653719</timemodified>
+  </label>
+</activity>

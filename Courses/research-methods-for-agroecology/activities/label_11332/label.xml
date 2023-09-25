@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2184" moduleid="11332" modulename="label" contextid="86558">
+  <label id="2184">
+    <name>
+The Niger data is daily climatic data spanning f...</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-65f19f89-7fff-69a2-ebe5-ea31895ce391"&gt;The Niger data is daily climatic data spanning from January 1945 to December 1980. This daily data is given for four stations: Agades, Niamey Aero, Birni N’Konni, and Zinder, hence each day has four rows: one for each station.&lt;/span&gt;&lt;/p&gt;&lt;span id="docs-internal-guid-65f19f89-7fff-69a2-ebe5-ea31895ce391"&gt;&lt;br&gt;
+    &lt;p dir="ltr"&gt;The first set of variables are information about the daily data:&lt;/p&gt;
+    &lt;ul&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;strong&gt;Name:&lt;/strong&gt; The name of the station&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;strong&gt;date:&lt;/strong&gt; The date for that row of data&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;strong&gt;year:&lt;/strong&gt; The year for that row of data&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;strong&gt;month_abbr:&lt;/strong&gt; The month for that row of data&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;strong&gt;doy&lt;/strong&gt;&lt;strong&gt;:&lt;/strong&gt; Which day of year is it for that year (from 1-366)&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;strong&gt;day_in_month:&lt;/strong&gt; The day in the month for that row of data&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;&lt;br&gt;
+    &lt;p dir="ltr"&gt;Eight different elements are then given in this data. These are:&lt;/p&gt;
+    &lt;ul&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;strong&gt;tmin: &lt;/strong&gt;Minimum temperature (celsius)&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;strong&gt;tmax: &lt;/strong&gt;Maximum temperature (celsius)&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;strong&gt;rain: &lt;/strong&gt;Rainfall (mm)&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;strong&gt;hmax:&lt;/strong&gt; Maximum humidity&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;strong&gt;hmin: &lt;/strong&gt;Minimum humidity&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;strong&gt;sunh&lt;/strong&gt;&lt;strong&gt;: &lt;/strong&gt;Hours of sunshine&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;strong&gt;ws: &lt;/strong&gt;Wind speed&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1"&gt;
+            &lt;p dir="ltr" role="presentation"&gt;&lt;strong&gt;wd: &lt;/strong&gt;Wind direction&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/span&gt;&lt;br&gt;This data is used in:&lt;br&gt;&lt;br&gt;Topic III: Data and variability in statistics software&lt;br&gt;&lt;br&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=85" target="_blank" title="$@COURSEVIEWBYID*238@$&amp;amp;section=85"&gt;A Table of Graphs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Topic VII: Introduction to statistical modelling&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=190" target="_blank" title="$@COURSEVIEWBYID*238@$&amp;amp;section=190"&gt;Is this the correct model?&lt;/a&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Topic VIII: An opportunistic study&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=200" target="_blank"&gt;Exploration of data&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=205" target="_blank" title="$@COURSEVIEWBYID*238@$&amp;amp;section=205"&gt;Visualising Interactions&lt;/a&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693474075</timemodified>
+  </label>
+</activity>

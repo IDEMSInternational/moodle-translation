@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2310" moduleid="11680" modulename="label" contextid="87021">
+  <label id="2310">
+    <name>We can compare what our ANOVA says about variables...</name>
+    <intro>&lt;p&gt;&lt;strong&gt;We can compare what our ANOVA says about variables that impact variability to what our visualisations show. The visualisations and modelling are telling you the same thing.&lt;/strong&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;What does it mean, however, if an interaction observed in a visualisation is not statistically significant in your model?  This might indicate that the sample size is too small to draw reliable conclusions from this data. This could mean that the observed pattern or relationship is due to random chance and that it is just natural variation causing these differences. Alternatively, it might signal the presence of unidentified variability requiring further investigation.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Conversely, what does it mean if a significant finding is in the model but not in visualisations? Could the significance stem from a large sample, magnifying even minor effects? More plausibly, it might signify hidden complexity in the data beyond what's captured in the visualisations. This might signify you need to dig deeper into the data to get a clearer understanding.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;In both scenarios, it's worth considering whether the chosen model accurately represents the data's distribution. Examining the distribution of the outcome variable could provide clarity. However, it's important to remember that p-values come with a margin of error – our customary 5% significance level acknowledges that about 5% of p-values (or 1 in 20) may yield "incorrect" outcomes.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693383739</timemodified>
+  </label>
+</activity>

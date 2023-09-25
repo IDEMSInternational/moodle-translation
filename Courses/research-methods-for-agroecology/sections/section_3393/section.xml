@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="3393">
+  <number>200</number>
+  <name>Exploration of Data</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11448</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1692612436</timemodified>
+  <course_format_options id="1482">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>1</value>
+  </course_format_options>
+  <course_format_options id="1480">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>195</value>
+  </course_format_options>
+  <course_format_options id="1481">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

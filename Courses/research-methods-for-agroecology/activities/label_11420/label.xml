@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2223" moduleid="11420" modulename="label" contextid="86671">
+  <label id="2223">
+    <name># R Code - Can copy and paste to run in R:# Load n...</name>
+    <intro>&lt;pre tabindex="0" aria-label="Console Output" role="document" id="rstudio_console_output"&gt;&lt;span tabindex="-1" role="document"&gt;&lt;strong&gt;# R Code - Can copy and paste to run in R:&lt;/strong&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre tabindex="0" aria-label="Console Output" role="document" id="rstudio_console_output"&gt;# Load necessary library
+if (!requireNamespace("ggplot2", quietly = TRUE)) {
+  install.packages("ggplot2")
+  library(ggplot2)
+  cat("Installed and loaded ggplot2.\n")
+} else {
+  library(ggplot2)
+}
+
+# Create a function that does this all
+p_value_and_n &amp;lt;- function(min = 10, max = 200, by = 10, mean_y = 0.5,
+                          sd_y = 1){
+  # Create a dataframe to store results
+  results &amp;lt;- data.frame(n = numeric(0), p_value = numeric(0))
+  
+  # Loop through increasing sample sizes
+  for (n in seq(min, max, by = by)) {
+    # Generate random data
+    group1 &amp;lt;- rnorm(n, mean = 0, sd = 1)
+    group2 &amp;lt;- rnorm(n, mean = mean_y, sd = sd_y)
+    
+    # Perform t-test
+    t_test_result &amp;lt;- t.test(group1, group2)
+    
+    # Store sample size and p-value in dataframe
+    results &amp;lt;- rbind(results, data.frame(n = n, p_value = t_test_result$p.value))
+  }
+  
+  # Create a scatter plot
+  return(ggplot(results, aes(x = n, y = p_value)) +
+           geom_point() +
+           geom_smooth() +
+           labs(title = "P-value vs Sample Size",
+                subtitle = paste0("X ~ N(0, 1); Y ~ N(", mean_y, ", ", sd_y, ")"),
+                x = "Sample Size",
+                y = "P-value") +
+           theme_minimal())
+}&lt;br&gt;&lt;/pre&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693052183</timemodified>
+  </label>
+</activity>

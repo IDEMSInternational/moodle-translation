@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2135" moduleid="11216" modulename="label" contextid="86137">
+  <label id="2135">
+    <name>Comprehensive analyses develop an understanding of...</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;span style=""&gt;&lt;strong&gt;Comprehensive analyses develop an understanding of the data.&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;span&gt;When you are analysing data, you want to know what is in the data: is what you observed when you collected the data coming through in your analysis? Once you’ve spent some time with a dataset, you will build an intuition about what is in the data: this might include patterns which are unrelated to your original hypothesis.&lt;/span&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-6de9ad40-7fff-8630-c829-8ae0aeed5233"&gt;When you’re building such an intuition, you will almost always identify some anomalies in the data, which will limit your confidence in certain variables. For example, whenever money is included in an agricultural survey, the values given often just don’t feel realistic. There are many reasons for why people are uncomfortable giving accurate information about their finances, and sometimes, they just don’t know!&lt;/span&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692581408</timemodified>
+  </label>
+</activity>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="2551">
+  <number>62</number>
+  <name>Examples of Data Rectangles</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>9147,11259</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1692293926</timemodified>
+  <course_format_options id="724">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="722">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>59</value>
+  </course_format_options>
+  <course_format_options id="723">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

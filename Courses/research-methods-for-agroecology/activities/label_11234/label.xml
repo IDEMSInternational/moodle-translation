@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2149" moduleid="11234" modulename="label" contextid="86180">
+  <label id="2149">
+    <name>What is a factor?
+
+The notion of a factor is rel...</name>
+    <intro>&lt;h2&gt;What is a factor?&lt;/h2&gt;
+&lt;br&gt;
+&lt;p&gt;The notion of a factor is relatively recent. Historically, in statistics all variables were analysed numerically. However, in the 80/90s, the concept of grouping variables was introduced. These are factors, and they quickly became prominent when handling data.
+&lt;/p&gt;&lt;br&gt;&lt;p&gt;
+A factor variable is a variable that is built of several levels. Two attributes where a factor variable differs from a numerical variable are in Order and Magnitude.&lt;/p&gt;&lt;br&gt;&lt;p&gt;
+One task when cleaning data is to recode factor levels. For example, if we look at the Omani data, we can see the variable sex has values 1 and 2. If we calculate the mean of this, we get 1.05 - this is not particularly insightful because sex is a factor variable. We therefore want to treat it as a factor.
+&lt;/p&gt;&lt;br&gt;&lt;p&gt;
+  &lt;/p&gt;&lt;h2&gt;Recoding a factor in a Spreadsheet Software&lt;/h2&gt;
+&lt;br&gt;
+&lt;p&gt;There are several approaches to recode a Factor variable in a spreadsheet software such as Excel - some of which may be more efficient in certain cases. Here, we address using filters to recode a variable.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;For example, we take the Sex variable in the Omani data and filter to just when Sex is “1”. We want to replace all “1”’s with “Male”. To do this:&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;Set the first value to be “Male”&lt;/li&gt;
+    &lt;li&gt;Then select the bottom right corner of that highlighted “Male” cell, and drag down. This will replace the other values with “Male”.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;br&gt;&lt;b id="docs-internal-guid-7761e6d6-7fff-dbaf-7796-a4b4972b9cc0"&gt;&lt;img src="https://lh3.googleusercontent.com/poyoyUbY8MgaqCXsIbWKm_f_2BhNjA93uZv5AjydZAbn8SRwYBmWIGHkfBl6js_jA4EN8_cCa6opNqhas-pIZFIb1Kmbh5hNC4qMKwor5YDhxnVM1jjc_rWpyCqsgMTf-Cczl3dQCnhu" width="624" height="511"&gt;&lt;/b&gt;&lt;br&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692653118</timemodified>
+  </label>
+</activity>

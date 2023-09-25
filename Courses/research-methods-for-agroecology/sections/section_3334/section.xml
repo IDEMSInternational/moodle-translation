@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="3334">
+  <number>117</number>
+  <name>Illustrative Example: reporting on your findings, as illustrated by PICSA</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11262,11221</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1692003769</timemodified>
+  <course_format_options id="1308">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="1306">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>115</value>
+  </course_format_options>
+  <course_format_options id="1307">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

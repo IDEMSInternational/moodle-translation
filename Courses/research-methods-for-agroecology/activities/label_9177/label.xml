@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1585" moduleid="9177" modulename="label" contextid="82056">
+  <label id="1585">
+    <name>Treatments enable us to do comparisons that determ...</name>
+    <intro>&lt;p&gt;Treatments enable us to do comparisons that determine cause and effect.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Treatments, or “interventions”, allow for the comparison of different levels or conditions to investigate how they impact the outcome variable, enabling the examination of cause and effect relationships.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The introduction of a treatment means that we are now dealing with an experiment: experiments are surveys with a treatment effect. &lt;strong&gt;What sets apart an experiment from a survey is the existence of a treatment effect.&lt;/strong&gt; You might have an experiment that “looks like” a traditional survey, or a survey that “looks like” a traditional experiment. For example, say you take soil samples from a field and analyse them in a lab - if there is no treatment, then this is just a survey.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693036891</timemodified>
+  </label>
+</activity>

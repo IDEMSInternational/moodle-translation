@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2271" moduleid="11502" modulename="label" contextid="86775">
+  <label id="2271">
+    <name>Here are a series of questions looking at the dist...</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;Here are a series of questions looking at the distribution of a variable&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693302491</timemodified>
+  </label>
+</activity>

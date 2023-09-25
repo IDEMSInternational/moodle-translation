@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2152" moduleid="11244" modulename="label" contextid="86198">
+  <label id="2152">
+    <name>Guide to the Data
+
+The Omani data is in multiple...</name>
+    <intro>&lt;h2&gt;Guide to the Data&lt;/h2&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;The Omani data is in multiple Excel sheets and we here will introduce the household data.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;
+&lt;strong&gt;&lt;img src="https://lh6.googleusercontent.com/vRpUC0rCY1r5LS_TuxrKMXUd77ayAaHlO0BSSM1mRBnOHaTy7Oodu7np_LsCwoY9TvyTrnNr3M4mr5yYRFnN0DHwsdbkBOu2F63nZ60fwuxO9Dl9IeYlpbwn0tVJeiJEDdsZ2u8fBqHZhjg6ZRoG_Q" width="624" height="358"&gt;&lt;/strong&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;Looking through the data, our initial impression is positive. The data look as though they have been carefully entered. We note:&lt;/p&gt;
+&lt;ol&gt;
+    &lt;li&gt;
+        The first row contains the names of each variable.&lt;/li&gt;
+    &lt;li&gt;Sometimes the first row includes a comment and an example is shown above. This gives an explanation of the columns that contain codes, such as 1, 2, 3.&lt;/li&gt;
+    &lt;li&gt;The first 3 columns show the layout of the study. It was in 3 villages, on 2 years and involved various households in each village.&lt;/li&gt;
+    &lt;li&gt;The remaining columns describe what was measured.&lt;/li&gt;
+&lt;/ol&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;br&gt;Scrolling across, the label at the top shows the columns go up to AD, so that’s 30 columns. The comment shown below also indicates there are missing values in the data, coded as -9. The last 2 columns also show there are sometimes gaps in the data.&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;strong&gt;&lt;img src="https://lh6.googleusercontent.com/SNUw-9F6hC70l-dpH835CHDVKJFVr3R8luI2o-_NaRVGvJ_Ho2Vs-j5rUKHuG1sdiDsnk7Sqjqr38HAFWo_r7CeO0DLil2HKb3uPLjXFtP-yPjxXwC5rBDEG1vuZd6S4S8vamJG5Zwa4QiXvnVMyqQ" width="624" height="272"&gt;&lt;br&gt;&lt;/strong&gt;&lt;br&gt;&lt;span id="docs-internal-guid-f0eeea04-7fff-79d4-14ba-1402f2b4843f"&gt;
+    &lt;p dir="ltr" style=""&gt;&lt;/p&gt;
+&lt;/span&gt;
+&lt;p&gt;Returning to the start, use the View menu and freeze the top row. Now, when scrolling to the end of the data, the names of each column remain visible. We note there were no gaps, (blank rows) in the data, and they go down to row 67. As the names are row 1 this shows there are 66 cases, or rows of data.
+&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;
+    As you scroll down, check carefully for what you see and also – perhaps oddly, what you don’t see!
+&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;
+    One important thing you don’t see is anything below the data. There are no totals or other summaries below. (Note there is nothing wrong with adding summaries. Spreadsheets are very good at that. They may help to check on aspects of your data, or be the first steps in the analysis. But, make a copy onto another sheet first, so you also keep sheets with just the data.)
+&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;img src="https://lh6.googleusercontent.com/DOxXGxUTJ0A1cWbxmK1fuHr4lL47u93RRTTAGjCsFAR1gRPfc6PIqkvpzFkuyuF0O9UWsv253IR7xhlvtdbTTcFLEE6WLfydPAbF0tbR1MzYoE3Ph1ypFKXSZo3yCT2eGEnRgK9jwPcptTr-xJCJMA" width="599" height="343"&gt;&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;You need to become data detectives if you are going to be able to analyse your data well. So in scrolling I also noticed:&lt;/p&gt;
+The names of the villages seem to be spelled consistently throughout. (Any spelling mistake is like adding a new village and I didn’t see that.)
+Most households, but not all, have a male head. And I didn’t notice any numbers other than 1 or 2.
+The household size can become quite large, but there do not seem to be any ridiculous numbers. For example 999 would be ridiculous.
+Similarly with the age of the household head.
+&lt;br&gt;&lt;br&gt;
+&lt;p&gt;
+    None of these checks are rigorous, particularly as often there are many more rows. But these initial checks, as here, only take a few minutes and you learn a lot about the data. You finish, either content, or concerned. Here we are content, and so continue to the next steps in our data exploration.&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;
+    Were you to finish concerned, then you know that your next steps are to tidy your data. This can involve deleting blank lines in the data, correcting spelling mistakes in the village names and do on. Also, check you are using the correct version of the data. You may be on the wrong sheet, that just had an early draft of the data, or there may be a tidied copy in a later file.
+&lt;/p&gt;&lt;br&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692614793</timemodified>
+  </label>
+</activity>

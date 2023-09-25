@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2158" moduleid="11252" modulename="label" contextid="86206">
+  <label id="2158">
+    <name>Graphs of basic summaries, such as bar charts, can...</name>
+    <intro>&lt;p&gt;Graphs of basic summaries, such as bar charts, can be achieved using both spreadsheet software and statistics packages. However, leveraging graphics for data visualisation becomes more powerful when using a statistics package.
+&lt;/p&gt;&lt;br&gt;&lt;p&gt;
+Graphics from a statistical package are more powerful, partially due to the multidimensional capabilities that are offered in a statistical package. &lt;strong&gt;By adding layers to a graph, analysts can build up this dimensionality - investigating the influence of multiple variables&lt;/strong&gt; in tandem, and independently, &lt;strong&gt;on the outcome.
+&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;
+The concept of layers stems from the grammar of graphics (Wilkinson, 2012). Statistical packages offer a range of powerful visualisations that go beyond basic plots, enabling the analyst to dig deeper into the data and the variability within it. &lt;/p&gt;
+&lt;br&gt;&lt;em&gt;
+Wilkinson, L., 2012. The grammar of graphics (pp. 375-414). Springer Berlin Heidelberg.&lt;/em&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692580246</timemodified>
+  </label>
+</activity>

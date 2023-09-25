@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2225" moduleid="11436" modulename="label" contextid="86691">
+  <label id="2225">
+    <name>In Meaningful Modelling we discussed how hypothesi...</name>
+    <intro>&lt;p&gt;In &lt;a href="“$@COURSEVIEWBYID*238@$&amp;amp;section=173”"&gt;Meaningful Modelling&lt;/a&gt; we discussed how hypothesis testing is a powerful tool when data is scarce. However, modelling is an essential practice even when there is an abundance of data. For example, modelling is at the heart of data science, but not to hypothesis test - instead it is to account for variability. The ability to account for variability is a fundamental objective of modelling.&lt;/p&gt;
+&lt;br&gt;&lt;p&gt;
+There are several measures of variability, each with its own set of advantages and disadvantages. When employing different models in data analysis, you are essentially selecting a particular measure of variability to suit your needs. In other words, the choice of a model determines which measure of variability you will use.&lt;/p&gt;&lt;br&gt;&lt;p&gt;
+Why is it important to account for variability? Understanding and accounting for this variability helps to identify influential factors for the outcome variable. This then means that we can draw meaningful conclusions from the study.&lt;/p&gt;&lt;br&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693169942</timemodified>
+  </label>
+</activity>

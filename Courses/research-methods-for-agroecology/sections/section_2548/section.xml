@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="2548">
+  <number>72</number>
+  <name>Observing Variability</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11233</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1686307691</timemodified>
+  <course_format_options id="712">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>1</value>
+  </course_format_options>
+  <course_format_options id="710">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>44</value>
+  </course_format_options>
+  <course_format_options id="711">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

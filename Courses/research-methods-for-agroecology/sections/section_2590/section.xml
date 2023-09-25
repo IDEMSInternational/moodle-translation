@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="2590">
+  <number>150</number>
+  <name>Pearl Millet Growth: What to Measure?</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11359,11361,11362,11363</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1692884636</timemodified>
+  <course_format_options id="820">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="818">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>149</value>
+  </course_format_options>
+  <course_format_options id="819">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

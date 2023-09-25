@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1572" moduleid="9152" modulename="label" contextid="82023">
+  <label id="1572">
+    <name>Pivot tables are a powerful and easy-to-use compon...</name>
+    <intro>&lt;p&gt;&lt;strong&gt;Pivot tables are a powerful and easy-to-use component of spreadsheets.&lt;/strong&gt; They are usually presented as a simple way of summarising data. This is true, but we also find they are excellent at the exploratory stage of data analysis.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;A pivot table is an interactive tool where the analyst can select, filter, and rearrange columns and rows. In addition, the analyst can choose which summary statistics to display, and for which variable(s). The table can be rearranged and re-calculated by dragging and dropping fields, allowing different dimensions and perspectives of the data to be explored.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692559516</timemodified>
+  </label>
+</activity>

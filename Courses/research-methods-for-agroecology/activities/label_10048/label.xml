@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1783" moduleid="10048" modulename="label" contextid="84109">
+  <label id="1783">
+    <name>We highlight the distinction between analysis and ...</name>
+    <intro>&lt;p&gt;We highlight the distinction between analysis and interpretation using the &lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=13" target="_blank"&gt;Soil Variability and Millet Growth Case Study&lt;/a&gt;. This Millet Case Study is a completely randomised experiment consisting of 48 treatments resulting from the combination of four factors. These factors include three levels of millet crop residues (CR), two levels of broadcast P, four genotypes, and a fourth factor with two levels that varied over years.&lt;/p&gt;
+&lt;p&gt;Consider the following paragraph (note that "cotton stainer" and "millet head caterpillars" are types of pests):&lt;/p&gt;
+&lt;br&gt;
+&lt;p style="text-align: center;"&gt;&lt;strong&gt;&lt;em&gt;The significant year × stratum interaction for grain yield might have been caused by the strong attack of the cotton stainer in 1991, which decreased grain yield more in plots of high than of low productivity. This differential damage was most likely caused by effects of soil productivity on the speed of millet development. At the time of pest attack, in high-productivity plots the plants had already reached the sensitive stage of grain filling, while in low-productivity plots the plants were still flowering.&amp;nbsp;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;strong&gt;&lt;em&gt;The markedly lower grain yield in 1993 was caused by a heavy attack of the millet head caterpillar.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Analysis in this study involves the application of statistical techniques to examine and explore the data, revealing insights and patterns. For example:&lt;/p&gt;
+&lt;p&gt;1. There is a year by stratum interaction for grain yield&lt;/p&gt;
+&lt;p&gt;2. Grain yield decreases more in plots of high than low productivity.&lt;/p&gt;
+&lt;p&gt;3. There is a lower grain yield in 1993.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Interpretation, on the other hand, involves making sense of the results - explaining their meaning and implications by contextualising the findings.&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;This is "everything else" in the paragraph above: Explaining the interaction, hypothesising the cause of a lower yield or why the grain yield decreased more in high than low productivity plots when a pest was involved.&lt;/span&gt;&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;The analysis and information can be found by using the appropriate statistical tools. But more depth is then given through applying the context to try to explain the differences.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693237594</timemodified>
+  </label>
+</activity>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="3359">
+  <number>83</number>
+  <name>Abstract Concept</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11252</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1692283786</timemodified>
+  <course_format_options id="1383">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="1381">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>81</value>
+  </course_format_options>
+  <course_format_options id="1382">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

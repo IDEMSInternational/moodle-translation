@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1777" moduleid="10042" modulename="label" contextid="84093">
+  <label id="1777">
+    <name>The Design Affects the Results
+
+If the experimen...</name>
+    <intro>&lt;h3&gt;The Design Affects the Results&lt;/h3&gt;
+&lt;br&gt;
+&lt;p&gt;If the experiment is designed well, biases should be minimised. This is through approaches such as replication, randomisation, and use of control groups. However, there will be compromises and so it is important to be aware of these, and to account for these in the results.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;To illustrate the impact of experimental design on results, we can examine &lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=13" target="_blank" title="$@COURSEVIEWBYID*238@$&amp;amp;section=13"&gt;the Soil Variability and Millet Growth Case Study&lt;/a&gt;. This study involves a completely randomised experiment comprising 48 treatments derived from the combination of four factors. These factors encompass three levels of millet crop residues (CR), two levels of broadcast P, four genotypes, and a fourth factor varying across different years. Consider the following paragraph:&lt;/p&gt;
+&lt;br&gt;
+&lt;p style="text-align: center;"&gt;&lt;strong&gt;&lt;em&gt;Treatment effects are likely to be cumulative over the growing season and, if applied on the same plot each year, over the whole duration of the experiment. Therefore, plant data to be used as integrating proxies of differences in inherent soil productivity should be taken as early as possible after treatment application. &lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The authors recognise and account for the use of the same plots across different years and consider their cumulative effect. This acknowledgement is important, and is an example which illustrates how the experimental design itself can have an impact on the analysis.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Consider the following paragraph where the authors discuss the potential confounding effects and unbalance that have arisen from the design:&lt;/p&gt;
+&lt;br&gt;
+&lt;p style="text-align: center;"&gt;&lt;strong&gt;&lt;em&gt;Due to the change in genotype and the fourth factor with years, both are partially confounded, but F-values of 1.77 for grain and 1.48 for straw gave no indication of an interaction. Altering the order in which factors entered into the unbalanced ANOVAs each year led to only very small changes in the F-values. This confirms the validity of the reported effects.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;From the design of the experiment, the authors demonstrate their awareness of potential confounding and imbalance within the data. Consequently, they have taken measures to ensure that these factors do not compromise the overall findings. This recognition of potential limitations adds credibility to their results and enhances the robustness of their conclusions.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693237432</timemodified>
+  </label>
+</activity>

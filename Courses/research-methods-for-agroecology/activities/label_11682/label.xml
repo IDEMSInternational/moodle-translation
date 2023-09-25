@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2311" moduleid="11682" modulename="label" contextid="87023">
+  <label id="2311">
+    <name>Let’s say we have the following scenario:&amp;nbsp;We ...</name>
+    <intro>&lt;p&gt;Let’s say we have the following scenario:&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;We are looking at the Yield of a crop
+        for two villages: Ayak and Urukna. There was &lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;an intervention (treatment)
+        applied to both villages, and it was of interest to see if this improved the
+        Yield. We then have a data set with three variables:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+    &lt;li&gt;Yield&lt;/li&gt;
+    &lt;li&gt;Village (two level factor)&lt;/li&gt;
+    &lt;li&gt;When the yield was taken (before or after treatment)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Let's say that when exploring the data, we do not see any visual differences between the Yield and Intervention, or between Yield and Village. That is, the
+    Intervention and Yield do not appear to account for any variability in the
+    yield. Hence, we do not expect any significant result in our model to show for our factor variables when using Yield as the outcome.&lt;/p&gt;
+&lt;p&gt;&lt;img src="@@PLUGINFILE@@/image.png" alt="" role="presentation" class="img-fluid"&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;em&gt;Figure 1: Boxplots of Yield for the Village (top) and Intervention (bottom).&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;However, we then fit our model, and see that “Intervention” is
+        found to be significant in the ANOVA at the 5% significance level:&lt;/span&gt;&lt;/p&gt;
+&lt;table&gt;
+    &lt;caption&gt;&lt;/caption&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th scope="col" style="text-align: center;"&gt;&lt;/th&gt;
+            &lt;th scope="col" style="text-align: center;"&gt;DF&lt;/th&gt;
+            &lt;th scope="col" style="text-align: center;"&gt;&amp;nbsp; &amp;nbsp;Sums Squared&amp;nbsp;&amp;nbsp;&lt;/th&gt;
+            &lt;th scope="col" style="text-align: center;"&gt;&amp;nbsp; Mean Squared&amp;nbsp; &amp;nbsp;&lt;/th&gt;
+            &lt;th scope="col" style="text-align: center;"&gt;&amp;nbsp;F Value&amp;nbsp; &amp;nbsp;&lt;/th&gt;
+            &lt;th scope="col" style="text-align: center;"&gt;&amp;nbsp; P value&amp;nbsp; &amp;nbsp;&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td style="text-align: center;"&gt;Intervention&amp;nbsp;&lt;/td&gt;
+            &lt;td style="text-align: center;"&gt;1&lt;/td&gt;
+            &lt;td style="text-align: center;"&gt;5.36&lt;/td&gt;
+            &lt;td style="text-align: center;"&gt;5.36&lt;/td&gt;
+            &lt;td style="text-align: center;"&gt;4.19&lt;/td&gt;
+            &lt;td style="text-align: center;"&gt;0.041*&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style="text-align: center;"&gt;Village&lt;/td&gt;
+            &lt;td style="text-align: center;"&gt;1&lt;/td&gt;
+            &lt;td style="text-align: center;"&gt;0.02&lt;/td&gt;
+            &lt;td style="text-align: center;"&gt;0.02&lt;/td&gt;
+            &lt;td style="text-align: center;"&gt;0.16&lt;/td&gt;
+            &lt;td style="text-align: center;"&gt;0.900&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td style="text-align: center;"&gt;Residuals&lt;/td&gt;
+            &lt;td style="text-align: center;"&gt;3997&lt;/td&gt;
+            &lt;td style="text-align: center;"&gt;5111.7&lt;/td&gt;
+            &lt;td style="text-align: center;"&gt;1.28&lt;/td&gt;
+            &lt;td style="text-align: center;"&gt;&lt;/td&gt;
+            &lt;td style="text-align: center;"&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br&gt;
+
+&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;What does this mean?&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Well, here the data is simulated. But sometimes, by chance, there is a
+        significant effect where there should not be one.&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;I can confirm this is
+        the case: The data is simulated such
+        that the same distribution is present for both “Before” and “After” under
+        Intervention, and hence&amp;nbsp;&lt;strong&gt;Intervention should not be significant&lt;/strong&gt;. It is, but this is merely by chance.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;In fact, I ran this simulated model 1000 times, and I found that
+        2.3% of my 2000 P-values (because each model gives a p-value for Intervention,
+        and one for Village) were significant at the 5% level.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Note in Figure 2 is a plot of the yield against the factor variables when neither main effects are significant. They look virtually the same as in Figure 1, when Intervention was found to be significant:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img src="@@PLUGINFILE@@/image%20%284%29.png" alt="" role="presentation" class="img-fluid"&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;em&gt;Figure 2: Boxplots of Yield for the Village (top) and Intervention (bottom) when neither p-value is significant.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;em&gt;&lt;br&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;em&gt;&lt;em&gt;ANOVA&amp;nbsp;&lt;em&gt;when neither p-value is significant:&lt;/em&gt;&lt;/em&gt;&lt;br&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;pre&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Df Sum Sq Mean Sq&amp;nbsp; F value Pr(&amp;gt;F)&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/pre&gt;
+&lt;pre&gt;Intervention&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.4&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.39&amp;nbsp;&amp;nbsp; 0.4040 0.5251&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/pre&gt;
+&lt;pre&gt;Village&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.1&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.06&amp;nbsp;&amp;nbsp; 0.0601 0.8064&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/pre&gt;
+&lt;pre&gt;Residuals&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 3996 3831.5&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.96&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;Let's continue with this example, but this time visualise more complexity in the model. We saw that there was no main effect, but, let’s visualise the boxplot of Intervention by
+        Yield, but add on the yield values coloured by which village. Further, we can add
+        in the mean of the yield for each village and intervention, and connect with a
+        dotted line:&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;img src="@@PLUGINFILE@@/image%20%281%29.png" alt="" role="presentation" class="img-fluid"&gt;&lt;/p&gt;
+
+&lt;p&gt;Now it looks like there is something going on. Our boxplots looked
+    identical before because the yield increased for one village after applying the
+    intervention, but decreased for the other. This could, for example, occur due to different soil
+    types within the villages: Perhaps one village has a soil type which reacts well with the
+    intervention and increases the yield; but the other village has a different soil type which does not react well
+    and instead decreases the yield.&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;span style="font-size: 0.9375rem;"&gt;Let’s add our interaction to the model and view the ANOVA:&lt;/span&gt;&lt;/p&gt;
+
+&lt;pre&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Df Sum Sq Mean Sq&amp;nbsp; F value&amp;nbsp; Pr(&amp;gt;F)&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/pre&gt;
+&lt;pre&gt;Intervention&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1&amp;nbsp;&amp;nbsp;&amp;nbsp; 5.4&amp;nbsp;&amp;nbsp;&amp;nbsp; 5.36&amp;nbsp;&amp;nbsp; 5.2367 0.02217 *&amp;nbsp; &lt;/pre&gt;
+&lt;pre&gt;Village&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.0&amp;nbsp;&amp;nbsp;&amp;nbsp; 0.02&amp;nbsp;&amp;nbsp; 0.0199 0.88792&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/pre&gt;
+&lt;pre&gt;Intervention:Village&amp;nbsp;&amp;nbsp;&amp;nbsp; 1 1018.1 1018.13 993.8743 &amp;lt; 2e-16 ***&lt;/pre&gt;
+&lt;pre&gt;Residuals&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 3996 4093.5&amp;nbsp;&amp;nbsp;&amp;nbsp; 1.02&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong style="font-size: 0.9375rem;"&gt;Our visualisations align with our model. This is good! And this is
+        what should be happening.&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;We might also get a significant when the data says otherwise because
+    our data is too large. Recall &lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=173"&gt;here&lt;/a&gt;, where we saw that the p-values
+    decrease as the size of the data set increases. This can be visualised through a Shiny Dashboard &lt;a href="https://parentapp.shinyapps.io/proRUWA_SampleSize/"&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 0.9375rem;"&gt;In reverse, we might visualise something that looks like it
+        accounts for variability, but due to a small sample size the p-value does not
+        find it significant. Alternatively, it might mean that there is more
+        variability in the data to dig into!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 0.9375rem;"&gt;In any case, we want to go back and forth
+        between our visualisations and models so that the &lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;visualisations align with the
+        model&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;.&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693383761</timemodified>
+  </label>
+</activity>

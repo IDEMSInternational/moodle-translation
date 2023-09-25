@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2232" moduleid="11443" modulename="label" contextid="86698">
+  <label id="2232">
+    <name>
+We examine the Niger climatic case study to addr...</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-09a0f53b-7fff-c339-a0c7-082e713ff921"&gt;We examine the &lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=17" target="_blank"&gt;Niger climatic case study&lt;/a&gt; to address the question, "Is this the correct model?". Recall that this data contains daily climatic data from January 1940 to December 1980 from four stations in Niger.&lt;/span&gt;&lt;/p&gt;&lt;span id="docs-internal-guid-09a0f53b-7fff-c339-a0c7-082e713ff921"&gt;&lt;br&gt;
+    &lt;p dir="ltr" style=""&gt;We construct a linear model with the aim to predict the occurrence of rainy days, where a rainy day is defined as having rainfall exceeding 0.85mm.&lt;/p&gt;&lt;br&gt;
+    &lt;p dir="ltr" style=""&gt;Our linear model incorporates the following variables as explanatory factors:&lt;/p&gt;&lt;br&gt;
+    &lt;ul style=""&gt;
+        &lt;li dir="ltr" aria-level="1" style=""&gt;
+            &lt;p dir="ltr" role="presentation" style=""&gt;Station&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1" style=""&gt;
+            &lt;p dir="ltr" role="presentation"&gt;Year&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1" style=""&gt;
+            &lt;p dir="ltr" role="presentation"&gt;Month&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1" style=""&gt;
+            &lt;p dir="ltr" role="presentation"&gt;Maximum temperature&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1" style=""&gt;
+            &lt;p dir="ltr" role="presentation"&gt;Minimum temperature&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1" style=""&gt;
+            &lt;p dir="ltr" role="presentation"&gt;Minimum humidity&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1" style=""&gt;
+            &lt;p dir="ltr" role="presentation"&gt;Maximum humidity&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1" style=""&gt;
+            &lt;p dir="ltr" role="presentation"&gt;Sunshine hours&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1" style=""&gt;
+            &lt;p dir="ltr" role="presentation"&gt;Wind speed&lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li dir="ltr" aria-level="1" style=""&gt;
+            &lt;p dir="ltr" role="presentation"&gt;Wind direction&lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;&lt;br&gt;
+    &lt;p dir="ltr" style=""&gt;This gives the following output in R&lt;/p&gt;
+    &lt;p dir="ltr" style=""&gt;&lt;/p&gt;
+    &lt;pre tabindex="0" aria-label="Console Output" role="document"&gt;    &lt;p dir="ltr" style=""&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;span style="font-weight: bold; font-size: 0.9375rem;"&gt;Coefficients:&lt;/span&gt;&lt;br&gt;
+    &lt;p dir="ltr" style="font-weight: bold;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Estimate Std. Error t value Pr(&amp;gt;|t|)&lt;/p&gt;
+    (Intercept)&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1.45e-03 &amp;nbsp; 3.61e-01&amp;nbsp; &amp;nbsp; 0.00&amp;nbsp; &amp;nbsp; 0.997
+    NameNiamey Aero &amp;nbsp; -3.76e-03 &amp;nbsp; 4.98e-03 &amp;nbsp; -0.75&amp;nbsp; &amp;nbsp; 0.451
+    NameBirni N'Konni&amp;nbsp; 3.24e-02 &amp;nbsp; 5.13e-03&amp;nbsp; &amp;nbsp; 6.32&amp;nbsp; 2.7e-10
+    NameZinder &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 3.79e-02 &amp;nbsp; 4.73e-03&amp;nbsp; &amp;nbsp; 8.02&amp;nbsp; 1.1e-15
+    year&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -2.23e-04 &amp;nbsp; 1.83e-04 &amp;nbsp; -1.22&amp;nbsp; &amp;nbsp; 0.221
+    month_abbrFeb&amp;nbsp; &amp;nbsp; &amp;nbsp; 9.01e-03 &amp;nbsp; 7.10e-03&amp;nbsp; &amp;nbsp; 1.27&amp;nbsp; &amp;nbsp; 0.204
+    month_abbrMar&amp;nbsp; &amp;nbsp; &amp;nbsp; 1.17e-02 &amp;nbsp; 7.97e-03&amp;nbsp; &amp;nbsp; 1.47&amp;nbsp; &amp;nbsp; 0.141
+    month_abbrApr &amp;nbsp; &amp;nbsp; -1.07e-03 &amp;nbsp; 9.45e-03 &amp;nbsp; -0.11&amp;nbsp; &amp;nbsp; 0.910
+    month_abbrMay &amp;nbsp; &amp;nbsp; -2.43e-02 &amp;nbsp; 1.03e-02 &amp;nbsp; -2.36&amp;nbsp; &amp;nbsp; 0.018
+    month_abbrJun &amp;nbsp; &amp;nbsp; -1.25e-02 &amp;nbsp; 1.05e-02 &amp;nbsp; -1.19&amp;nbsp; &amp;nbsp; 0.234
+    month_abbrJul&amp;nbsp; &amp;nbsp; &amp;nbsp; 4.82e-02 &amp;nbsp; 1.08e-02&amp;nbsp; &amp;nbsp; 4.48&amp;nbsp; 7.6e-06
+    month_abbrAug&amp;nbsp; &amp;nbsp; &amp;nbsp; 7.58e-02 &amp;nbsp; 1.13e-02&amp;nbsp; &amp;nbsp; 6.70&amp;nbsp; 2.1e-11
+    month_abbrSep &amp;nbsp; &amp;nbsp; -3.18e-02 &amp;nbsp; 1.07e-02 &amp;nbsp; -2.97&amp;nbsp; &amp;nbsp; 0.003
+    month_abbrOct &amp;nbsp; &amp;nbsp; -5.52e-02 &amp;nbsp; 9.13e-03 &amp;nbsp; -6.05&amp;nbsp; 1.5e-09
+    month_abbrNov &amp;nbsp; &amp;nbsp; -3.03e-02 &amp;nbsp; 7.43e-03 &amp;nbsp; -4.07&amp;nbsp; 4.7e-05
+    month_abbrDec &amp;nbsp; &amp;nbsp; -1.09e-02 &amp;nbsp; 6.81e-03 &amp;nbsp; -1.60&amp;nbsp; &amp;nbsp; 0.110
+    tmax &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 9.35e-03 &amp;nbsp; 7.57e-04 &amp;nbsp; 12.35&amp;nbsp; &amp;lt; 2e-16
+    tmin&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -5.72e-03 &amp;nbsp; 6.99e-04 &amp;nbsp; -8.19&amp;nbsp; 2.8e-16
+    hmax &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2.10e-03 &amp;nbsp; 1.39e-04 &amp;nbsp; 15.07&amp;nbsp; &amp;lt; 2e-16
+    hmin &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 5.63e-03 &amp;nbsp; 2.38e-04 &amp;nbsp; 23.60&amp;nbsp; &amp;lt; 2e-16
+    sunh&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -1.02e-02 &amp;nbsp; 6.62e-04&amp;nbsp; -15.42&amp;nbsp; &amp;lt; 2e-16
+    ws &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 2.38e-02 &amp;nbsp; 4.21e-04 &amp;nbsp; 56.40&amp;nbsp; &amp;lt; 2e-16
+    wd&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; -3.17e-04 &amp;nbsp; 1.73e-05&amp;nbsp; -18.36&amp;nbsp; &amp;lt; 2e-16
+    &lt;br&gt;
+        &lt;/pre&gt;&lt;br&gt;
+    &lt;p dir="ltr" style=""&gt;To further evaluate our model, we apply an analysis of variance (ANOVA):&lt;/p&gt;&lt;br&gt;
+    &lt;pre tabindex="0" aria-label="Console Output" role="document"&gt;    &lt;p dir="ltr" style=""&gt;&lt;br&gt;&lt;/p&gt;&lt;br&gt;&lt;span style="font-weight: bold; font-size: 0.9375rem;"&gt;Analysis of Variance Table&lt;br&gt;
+    &lt;p dir="ltr" style="font-weight: bold;"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Df Sum Sq Mean Sq F value&amp;nbsp; Pr(&amp;gt;F)
+    Name &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 3 &amp;nbsp; &amp;nbsp; 25 &amp;nbsp; &amp;nbsp; 8.4&amp;nbsp; 136.78 &amp;lt; 2e-16
+    year &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1&amp;nbsp; &amp;nbsp; &amp;nbsp; 3 &amp;nbsp; &amp;nbsp; 3.2 &amp;nbsp; 51.51 7.3e-13
+    month_abbr&amp;nbsp; &amp;nbsp; 11&amp;nbsp; &amp;nbsp; 547&amp;nbsp; &amp;nbsp; 49.7&amp;nbsp; 812.05 &amp;lt; 2e-16
+    tmax &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1 &amp;nbsp; &amp;nbsp; 67&amp;nbsp; &amp;nbsp; 66.9 1092.72 &amp;lt; 2e-16
+    tmin &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1&amp;nbsp; &amp;nbsp; &amp;nbsp; 0 &amp;nbsp; &amp;nbsp; 0.1&amp;nbsp; &amp;nbsp; 2.35&amp;nbsp; &amp;nbsp; 0.13
+    hmax &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1 &amp;nbsp; &amp;nbsp; 68&amp;nbsp; &amp;nbsp; 67.8 1107.48 &amp;lt; 2e-16
+    hmin &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1 &amp;nbsp; &amp;nbsp; 30&amp;nbsp; &amp;nbsp; 30.1&amp;nbsp; 491.80 &amp;lt; 2e-16
+    sunh &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1 &amp;nbsp; &amp;nbsp; 24&amp;nbsp; &amp;nbsp; 24.2&amp;nbsp; 395.36 &amp;lt; 2e-16
+    ws &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1&amp;nbsp; &amp;nbsp; 248 &amp;nbsp; 248.1 4051.49 &amp;lt; 2e-16
+    wd &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1 &amp;nbsp; &amp;nbsp; 21&amp;nbsp; &amp;nbsp; 20.6&amp;nbsp; 337.08 &amp;lt; 2e-16
+    Residuals&amp;nbsp; 32195 &amp;nbsp; 1972 &amp;nbsp; &amp;nbsp; 0.1&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+            &lt;/span&gt;&lt;/pre&gt;&lt;br&gt;
+    &lt;p dir="ltr" style="font-weight: bold;"&gt;&lt;/p&gt;&lt;br&gt;
+    &lt;p dir="ltr" style=""&gt;We examine the distribution of the error terms to gauge whether they align with the model's assumptions. One model assumption in a linear model is that the error terms follow a normal distribution. This can be checked through plots, such as a QQ-Plot or a plot of the fitted values against the residual values.&lt;/p&gt;&lt;br&gt;
+    &lt;p dir="ltr" style=""&gt;A normal distribution is indicated in the error term in a QQ plot if the values follow a diagonal line. However, a deviation from this anticipated trend is observable in the QQ-plot when fitted to our linear model (Figure 1).&lt;/p&gt;&lt;br&gt;
+    &lt;p dir="ltr" style=""&gt;We can additionally plot the fitted values against residual values. A normal distribution in the error terms is indicated if the values are randomly scattered in the plot without discernible patterns. However, with our model, a distinct trend is evident rather than randomness (Figure 2). Both plots of our model indicate a lack of adherence to assumptions.&lt;/p&gt;&lt;br&gt;
+    &lt;p dir="ltr" style="font-weight: bold;"&gt;&lt;img src="https://lh6.googleusercontent.com/B-gLpHn4ApvVmVZuylBuyWKJnnQWgkZ7SkUb4H2yIoLtjxg0AodzvttPr7dMTQZWvMTuzJ8qRUaBNd0Pht_PzDY-Tz1Hz1rYlyHvNfOAEl1sVyaTmEqPhqmq1J1pSuNtS7tsm4hjsrOXxNVWjkQjUAw" width="624" height="399"&gt;&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+    &lt;p dir="ltr" style="font-weight: bold;"&gt;&lt;img src="https://lh4.googleusercontent.com/hf9xp3VgOz1jPoJ942_2OZtnGCWUj_A2fp-VTTZOs5Pm22P-th7WxqqIRauEUoqTSrmIfXVwYL8rpOgpITHDLyjPgSUsnGHXgT7ZU5y1Xtq5zWZaojyyuaUW3ymcBOHNfnWDVhGmCegGK-PZxwJaug0" width="624" height="399"&gt;&lt;/p&gt;&lt;br&gt;
+    &lt;p dir="ltr" style=""&gt;We can see non-normal errors, indicating that our model does not meet the assumptions needed for a linear model.&lt;/p&gt;&lt;br&gt;
+    &lt;p dir="ltr" style=""&gt;What does this mean?&lt;/p&gt;&lt;br&gt;
+    &lt;p dir="ltr" style=""&gt;Since the model assumptions have not been met, these p-values in the model are unreliable. This is because p-values could potentially overestimate the significance, and hence p-values should not be used here.&lt;/p&gt;&lt;br&gt;
+    &lt;p dir="ltr" style=""&gt;However, this doesn't imply that the output is entirely unusable in the absence of assumption satisfaction; it's primarily the p-values that should be treated with caution.&lt;/p&gt;&lt;br&gt;
+    &lt;p dir="ltr" style=""&gt;We are only doing model-fitting when we go to the p-values, so the assumptions only come into play when calculating p-values.&lt;/p&gt;&lt;br&gt;
+    &lt;p dir="ltr" style=""&gt;The ANOVA meanwhile is a purely descriptive process; for example, by calculating Sums of Squares, and assessing how much variability is accounted for and by which variable(s). This is the power of ANOVA as a descriptive rather than modelling tool. The variability remains unaffected; our ability to access descriptive data is independent of assumptions.&amp;nbsp;&lt;/p&gt;&lt;br&gt;
+    &lt;p dir="ltr" style=""&gt;To get the right model, we need to question if we really need that statistical significance in our context. If we do, we can try alternative models that fit the assumptions of the data. Alternatively, this might be a suitable point to seek advice from a statistician.&lt;/p&gt;
+&lt;/span&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693242417</timemodified>
+  </label>
+</activity>

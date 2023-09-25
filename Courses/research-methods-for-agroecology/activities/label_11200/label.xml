@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2120" moduleid="11200" modulename="label" contextid="86113">
+  <label id="2120">
+    <name>ObjectivesWe want to know what skills and experien...</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;h2 dir="ltr"&gt;&lt;strong&gt;Objectives&lt;/strong&gt;&lt;/h2&gt;&lt;ol&gt;&lt;li dir="ltr" aria-level="1"&gt;&lt;p dir="ltr" role="presentation"&gt;&lt;span id="docs-internal-guid-ec6722fb-7fff-6f04-9356-4eacf4c48b22"&gt;We want to know what skills and experiences the students on this course have so that we can adapt our teaching to build on their knowledge. Your task is to design a survey and report on this information.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir="ltr" aria-level="1"&gt;&lt;p dir="ltr" role="presentation"&gt;&lt;span id="docs-internal-guid-ec6722fb-7fff-6f04-9356-4eacf4c48b22"&gt;We will learn to use a digital data collection method, notably Open Data Kit (ODK) questionnaires.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;li dir="ltr" aria-level="1"&gt;&lt;p dir="ltr" role="presentation"&gt;&lt;span id="docs-internal-guid-ec6722fb-7fff-6f04-9356-4eacf4c48b22"&gt;The survey data may be used to inform a subsequent qualitative study at the end of the course, highlighting the value of mixed methods.&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692580876</timemodified>
+  </label>
+</activity>

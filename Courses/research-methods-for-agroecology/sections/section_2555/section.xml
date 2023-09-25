@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="2555">
+  <number>54</number>
+  <name>Questions to Practice Data Cleaning</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11240</sequence>
+  <visible>1</visible>
+  <availabilityjson>{"op":"&amp;","c":[],"showc":[]}</availabilityjson>
+  <timemodified>1692211706</timemodified>
+  <course_format_options id="736">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="734">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>51</value>
+  </course_format_options>
+  <course_format_options id="735">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

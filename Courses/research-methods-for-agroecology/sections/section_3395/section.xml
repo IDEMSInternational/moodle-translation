@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="3395">
+  <number>209</number>
+  <name>The Report</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11712</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1692612531</timemodified>
+  <course_format_options id="1488">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>1</value>
+  </course_format_options>
+  <course_format_options id="1486">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>195</value>
+  </course_format_options>
+  <course_format_options id="1487">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

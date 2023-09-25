@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2129" moduleid="11210" modulename="label" contextid="86131">
+  <label id="2129">
+    <name>Pilot the questionnaireDigital questionnaires can ...</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;strong style="font-size: 0.9375rem;"&gt;Pilot the questionnaire&lt;/strong&gt;&lt;br&gt;&lt;p dir="ltr"&gt;&lt;strong&gt;&lt;br&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-0e9e2f68-7fff-3ea2-f4ea-09295426b336"&gt;Digital questionnaires can be run on a smartphone, tablet or laptop. We suggest you try collecting data on your smartphone, as this is most likely how you would use ODK outside this course. Download the KoboCollect app to test your questionnaire on your phone. An alternative is to create a shareable web link to your questionnaire, but unlike the app, this requires an internet connection.&lt;/span&gt;&lt;/p&gt;&lt;span id="docs-internal-guid-0e9e2f68-7fff-3ea2-f4ea-09295426b336"&gt;&lt;span&gt;&lt;strong&gt;You can now start piloting your questionnaire with a few respondents to identify potential improvements with the questionnaire design. &lt;/strong&gt;&lt;/span&gt;A pilot might be with about 10-25% of the total people to be surveyed, although this can be very flexible depending on context.&lt;/span&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692581320</timemodified>
+  </label>
+</activity>

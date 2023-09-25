@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2207" moduleid="11372" modulename="label" contextid="86622">
+  <label id="2207">
+    <name>How do we know if there is variability left to acc...</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;span&gt;&lt;strong&gt;How do we know if there is variability left to account for?&lt;br&gt;&lt;/strong&gt;&lt;br&gt;This is simulated data, and we have exhausted all of our variables. This 48.41 residual variability is our variability that is left over. This cannot be accounted for any further by our data.&lt;br&gt;&lt;br&gt;With real world data, it is not known how much residual variability to expect at the end! It can be estimated, however, by including a variable which you know is completely unrelated.&lt;br&gt;&lt;/span&gt;For example, let's add an ID variable to our data that takes a random value from a normal distribution. If we add it to our data, we can then see how much variability this new dummy variable accounts for (we should expect it to be very little!).&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;pre tabindex="0" aria-label="Console Output" role="document" id="rstudio_console_output"&gt;&lt;span tabindex="-1" role="document"&gt;           Df Sum Sq Mean Sq  F value  
+Fertiliser  1   1.60    1.60   1.5011 
+Soil        1 165.19  165.19 154.5835 
+Variety     1 769.43  769.43 720.0493 
+ID          1   0.33    0.33   0.3044    
+Residuals  45  48.09    1.07                       &lt;/span&gt;&lt;/pre&gt;&lt;pre tabindex="0" aria-label="Console Output" role="document" id="rstudio_console_output"&gt;&lt;/pre&gt;As expected, our dummy variable accounts for very little variability in the data since it is completely random. Since our residual variability is still relatively high compared to this, there is some indication that there is variability left that is unaccounted for. In our case, this is variability where we do not have a variable in the data for it.&lt;br&gt;&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692953642</timemodified>
+  </label>
+</activity>

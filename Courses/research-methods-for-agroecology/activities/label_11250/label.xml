@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2156" moduleid="11250" modulename="label" contextid="86204">
+  <label id="2156">
+    <name>If you are currently a spreadsheet user then we pr...</name>
+    <intro>&lt;p&gt;If you are currently a spreadsheet user then we propose, in this course, that you should add a statistical package to facilitate the full exploration and analysis of your data.
+&lt;/p&gt;&lt;br&gt;&lt;p&gt;
+Spreadsheet softwares, such as Excel, are powerful tools to store and clean data, as well as provide basic exploratory analysis. For instance, the existence of pivot tables is one of the reasons you will probably combine continued use of your spreadsheet software, with additional tools, rather than swapping them. However, you can reach the limit of the power that can be achieved through spreadsheet software like Excel, whereas this is where a statistics package tends to start.
+&lt;/p&gt;&lt;br&gt;&lt;p&gt;
+&lt;strong&gt;A statistical package is a suitable next step when the limitations are reached from exploring and analysing data in a spreadsheet software.&lt;/strong&gt; Statistical packages provide powerful tools to dig into and analyse data. In addition, statistical packages can produce presentation tables and graphs which can be further suitable for communicating results as well as investigating the data.
+&lt;/p&gt;&lt;br&gt;&lt;p&gt;
+Each software option comes with its own set of advantages and disadvantages. There is a wide range of tools available, and you are encouraged to use a mixture of spreadsheet software and statistical packages, using the ones that are most suitable for the task at hand.
+&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692580029</timemodified>
+  </label>
+</activity>

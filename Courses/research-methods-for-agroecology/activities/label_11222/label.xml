@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2138" moduleid="11222" modulename="label" contextid="86168">
+  <label id="2138">
+    <name>This section looks at exploring data in a spreadsh...</name>
+    <intro>This section looks at exploring data in a spreadsheet, with a focus on using PivotTables to explore the data. PivotTables offer a quick and efficient approach to explore the data, which would be cumbersome to do with the raw data alone.</intro>
+    <introformat>1</introformat>
+    <timemodified>1692559355</timemodified>
+  </label>
+</activity>

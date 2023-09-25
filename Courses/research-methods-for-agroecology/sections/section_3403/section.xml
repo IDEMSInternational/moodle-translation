@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="3403">
+  <number>86</number>
+  <name>Using Facets in Climatic Data</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11336,11337,11338</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1692801446</timemodified>
+  <course_format_options id="1512">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="1510">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>85</value>
+  </course_format_options>
+  <course_format_options id="1511">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

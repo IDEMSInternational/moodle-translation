@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2185" moduleid="11334" modulename="label" contextid="86560">
+  <label id="2185">
+    <name>Facets are a powerful tool to help visualise facto...</name>
+    <intro>&lt;p&gt;Facets are a powerful tool to help visualise factor levels in a data set. This is useful in the data exploration and analysis stage to help uncover insights that might otherwise be overlooked. By providing a deeper understanding of the structure and patterns in a data set, facets can help add clarity to complex data sets, allowing them to be more interpretable.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692887719</timemodified>
+  </label>
+</activity>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1575" moduleid="9155" modulename="label" contextid="82026">
+  <label id="1575">
+    <name>Missing data is inevitable in all but the simplest...</name>
+    <intro>&lt;p&gt;Missing data is inevitable in all but the simplest of datasets. If we think of data as being in a table then it is useful to consider rows which correspond to missing cases, columns correspond to missing variables, and cells correspond to missing values. Anything in your data rectangle without a value is missing.
+&lt;/p&gt;&lt;br&gt;&lt;p&gt;
+  Filtering, covered &lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=50" target="_blank" title="$@COURSEVIEWBYID*238@$&amp;amp;section=50"&gt;here&lt;/a&gt;, can be particularly useful to identify missing values. When applied to specific variables, this technique conveniently highlights values that are absent in that particular variable. Consequently, an observation of what is missing and the patterns of these missing values becomes feasible. This analysis could reveal scattered missing values within a variable or even the absence of an entire variable.
+&lt;/p&gt;&lt;br&gt;&lt;p&gt;
+By expanding our investigation through pivot tables, we can delve deeper into understanding the distribution of missing values. This can include determining the frequency of missing values within a variable, or, differentiating between values that are missing due to questions not being posed versus instances where questions were unanswered. 
+&lt;/p&gt;&lt;br&gt;&lt;p&gt;
+Handling missing values presents complexities, with various approaches to consider, whether by ignoring, filling, or exploring alternative solutions. Identifying these gaps is a crucial first step, as addressing them necessitates careful consideration, making it advisable to seek input when navigating this aspect of data analysis.
+&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;a&gt;There are some useful &lt;/a&gt;&lt;a href="https://stats4sd.org/resources/" target="_blank" title="resources"&gt;resources&lt;/a&gt; on the Stats4SD website relating to various areas of statistics, including this video on &lt;a href="https://stats4sd.org/resources/guidance-for-handling-different-types-of-data_2019-06-05_11:35:21" target="_blank" title="Missing Values"&gt;Missing Values&lt;/a&gt;.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692654602</timemodified>
+  </label>
+</activity>

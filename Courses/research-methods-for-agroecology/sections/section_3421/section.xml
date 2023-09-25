@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="3421">
+  <number>99</number>
+  <name>Case Study Example</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11374,11377</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1692893455</timemodified>
+  <course_format_options id="1553">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="1551">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>98</value>
+  </course_format_options>
+  <course_format_options id="1552">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

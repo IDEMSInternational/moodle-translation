@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2309" moduleid="11679" modulename="label" contextid="87020">
+  <label id="2309">
+    <name>The exploration and interactions phase aimed to un...</name>
+    <intro>The exploration and interactions phase aimed to understand data and identify key variables for accounting for outcome variations. We can use these insights to build a model with influential variables and interactions, and to check that our insights from the model align with that of the visualisations.</intro>
+    <introformat>1</introformat>
+    <timemodified>1693383700</timemodified>
+  </label>
+</activity>

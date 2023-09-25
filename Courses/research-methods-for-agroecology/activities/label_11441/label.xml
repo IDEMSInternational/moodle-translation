@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2230" moduleid="11441" modulename="label" contextid="86696">
+  <label id="2230">
+    <name>No. There is never a correct model.&amp;nbsp;But is it...</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p dir="ltr"&gt;&lt;span id="docs-internal-guid-546ad99e-7fff-0ae1-1013-9746d0d312a7"&gt;No. There is never a correct model.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;span id="docs-internal-guid-546ad99e-7fff-0ae1-1013-9746d0d312a7"&gt;&lt;br&gt;&lt;p dir="ltr"&gt;But is it a good model?&lt;/p&gt;&lt;br&gt;&lt;p dir="ltr"&gt;&lt;strong&gt;There is never a perfect model, but some models are better than others. Whether a model is “good” or not comes down to whether it is useful for your research objectives.&lt;/strong&gt;&lt;/p&gt;&lt;br&gt;&lt;p dir="ltr"&gt;A “good” model comes down to whether the model assumptions have been satisfied.&amp;nbsp;&lt;/p&gt;&lt;p dir="ltr"&gt;Since P-Values depend on the assumptions, then if the assumptions are not satisfied, it is not a good model. Hence when assumptions are not satisfied, p-values should be used with extreme caution because they may be incorrect.&lt;/p&gt;&lt;br&gt;&lt;p dir="ltr"&gt;However, even if the model assumptions are not entirely satisfied, not all is lost. Descriptive measures of variance, such as ANOVA tables, offer insightful evidence on how much variability is accounted for, and how much is not.&lt;/p&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693170354</timemodified>
+  </label>
+</activity>

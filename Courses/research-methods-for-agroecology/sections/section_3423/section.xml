@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="3423">
+  <number>101</number>
+  <name>Illustrative Examples: Estimating Variability</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11368</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1692893473</timemodified>
+  <course_format_options id="1559">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="1557">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>98</value>
+  </course_format_options>
+  <course_format_options id="1558">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

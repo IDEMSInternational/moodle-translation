@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1774" moduleid="10039" modulename="label" contextid="84089">
+  <label id="1774">
+    <name>Planning an Experiment
+
+In some domains, there m...</name>
+    <intro>&lt;h3&gt;Planning an Experiment&lt;/h3&gt;
+&lt;br&gt;
+&lt;p&gt;In some domains, there may be a tendency to underestimate the importance of design. Although advance planning can be time consuming, it can overall lead to time savings, as well as other benefits such as resulting in a cost effective solution, and help minimise biases, amongst other factors.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;In clinical settings, it is customary to develop a detailed protocol before commencing an experiment, encompassing all aspects from the design plan to the analysis. This approach necessitates careful forethought and meticulous planning. While this level of planning may be less common in other domains, it is still good practice to have this level of planning and awareness of the study objectives and context regardless.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Proactive planning can ensure that all critical elements are considered and accounted for before the experiment begins - for example, ensuring the key variables to be measured are included, appropriate treatments and controls are selected, and anticipating potential biases or confounding factors. Taking the time to plan ahead ultimately leads to more reliable and robust results, enhancing the overall quality of the study and its findings.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692887351</timemodified>
+  </label>
+</activity>

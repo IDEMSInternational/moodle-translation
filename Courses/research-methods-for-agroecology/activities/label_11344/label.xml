@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2189" moduleid="11344" modulename="label" contextid="86571">
+  <label id="2189">
+    <name>Do I treat my variable as a factor?
+
+That depend...</name>
+    <intro>&lt;h2&gt;Do I treat my variable as a factor?&lt;/h2&gt;
+&lt;br&gt;
+&lt;p&gt;That depends. Let’s look at this for two types of variables: numerical and text variables.&lt;/p&gt;
+&lt;br&gt;
+&lt;ul&gt;
+    &lt;li&gt;Note that a logical variable (0/1, TRUE/FALSE) is a two-level factor, so would be treated like a factor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h4&gt;Numerical Variables&lt;/h4&gt;
+&lt;br&gt;
+&lt;p&gt;We&amp;nbsp;&lt;a href="$@COURSEVIEWBYID*238@$&amp;amp;section=90"&gt;have established&lt;/a&gt; that by default a factor does not have an order or magnitude. However, a factor variable can have an order and it can have a magnitude, like a numerical variable. We also established that a factor variable is analysable on grouping variables. So what do I treat as a factor and what do I treat as a numerical variable? Why does it even matter?&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;This depends on the factor variable itself, and the analysis you want to do. Let’s look at the variable “Year” as an example. Say we have a data set, displaying daily rainfall data. This has four columns: Year, Month, Day, and Rainfall for that date.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Do we want to look at the trend or regression for the year variable? For example, do we want to establish the trend between another explanatory variable, such as rainfall, and year? Here, we would be interested with plotting a line or scatter plot to see the trend between rainfall and year. We would therefore treat year as a numerical variable.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Or, do we want to look at values within a group? Perhaps we want to instead look at the rainfall within each year. In this case, setting “year” as a factor makes sense. For example, we might want to look at a set of boxplots to see the rainfall within each year.&lt;/p&gt;&lt;br&gt;
+&lt;p&gt;(We might want to do a bit of both: Calculate the average rainfall for each year, and then treat “Year” as a numerical variable to give a scatterplot displaying trend of average rainfall across many years).&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Would we want to look at rainfall averages for each day? Well, what would that tell us in our analyses? If we found one day had a larger rainfall than the other, there is not much information we can infer with that. It would be down to randomness.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Try fitting an ANOVA, once with year as a continuous variable and then with year as a factor variable. When as a continuous variable, year is like fitting a line.&lt;/p&gt;
+&lt;br&gt;
+&lt;h4&gt;Text Variables&lt;/h4&gt;
+&lt;br&gt;
+&lt;p&gt;A text variable may occur in a study if there is the opportunity for the participant to write in a statement. A common example of a text variable is when there is an “other” box.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;When faced with a text variable, you might want to do some analysis and cleaning to turn it into something sensible, and set that as a factor. For example, we might have the following question:&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;span&gt;&lt;em&gt;What country are you from?&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;[ ]&amp;nbsp;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;Niger&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;[ ] Mali&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;[ ] Burkina Faso&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;[ ] Other&lt;/span&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr" style=""&gt;&lt;span&gt;&lt;em&gt;If “Other”, please state where&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;[ Text box ]&lt;/span&gt;&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr" style=""&gt;Say we have the following responses from our questionnaire:&lt;/p&gt;
+&lt;p dir="ltr" style="font-weight: bold;"&gt;Niger, Niger, Mali, Other - UK, Other - United Kingdom, Mali, Mali, Burkina Faso, Burkina Faso, Other - Germany&lt;/p&gt;
+&lt;p&gt;Here, we have three “Other” variables: UK, United Kingdom, and Germany.&lt;/p&gt;
+&lt;p&gt;We would first do some data cleaning - the UK and United Kingdom are the same country, so we can rename these to be consistent.&lt;/p&gt;
+&lt;p&gt;We can then choose to make this text variable as a factor variable with five levels: Niger, Mali, Burkina Faso, UK, Germany.&lt;/p&gt;
+&lt;p&gt;Overall, with a text variable you might want to do some analysis and cleaning to turn it into something sensible, and set that as a factor&lt;/p&gt;&lt;br&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692805091</timemodified>
+  </label>
+</activity>

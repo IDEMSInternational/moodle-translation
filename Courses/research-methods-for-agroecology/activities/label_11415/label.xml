@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2221" moduleid="11415" modulename="label" contextid="86666">
+  <label id="2221">
+    <name>This presentation looks at how increasing the samp...</name>
+    <intro>This presentation looks at how increasing the sample size increases the significance between two variables. Below are slides to view the presentation, followed by a written version of the presentation.
+
+Here is an R function to try it out yourself. You can try &lt;a href="https://parentapp.shinyapps.io/proRUWA_SampleSize/" target="_blank" title="online here"&gt;online here&lt;/a&gt;.</intro>
+    <introformat>1</introformat>
+    <timemodified>1693004467</timemodified>
+  </label>
+</activity>

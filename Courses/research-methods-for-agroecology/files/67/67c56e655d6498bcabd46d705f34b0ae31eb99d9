@@ -1,0 +1,38 @@
+# Load necessary library
+if (!requireNamespace("ggplot2", quietly = TRUE)) {
+  install.packages("ggplot2")
+  library(ggplot2)
+  cat("Installed and loaded ggplot2.\n")
+} else {
+  library(ggplot2)
+}
+
+# Create a function that does this all
+p_value_and_n <- function(min = 10, max = 200, by = 10, mean_y = 0.5,
+                          sd_y = 1){
+  # Create a dataframe to store results
+  results <- data.frame(n = numeric(0), p_value = numeric(0))
+  
+  # Loop through increasing sample sizes
+  for (n in seq(min, max, by = by)) {
+    # Generate random data
+    group1 <- rnorm(n, mean = 0, sd = 1)
+    group2 <- rnorm(n, mean = mean_y, sd = sd_y)
+    
+    # Perform t-test
+    t_test_result <- t.test(group1, group2)
+    
+    # Store sample size and p-value in dataframe
+    results <- rbind(results, data.frame(n = n, p_value = t_test_result$p.value))
+  }
+  
+  # Create a scatter plot
+  return(ggplot(results, aes(x = n, y = p_value)) +
+           geom_point() +
+           geom_smooth() +
+           labs(title = "P-value vs Sample Size",
+                subtitle = paste0("X ~ N(0, 1); Y ~ N(", mean_y, ", ", sd_y, ")"),
+                x = "Sample Size",
+                y = "P-value") +
+           theme_minimal())
+}

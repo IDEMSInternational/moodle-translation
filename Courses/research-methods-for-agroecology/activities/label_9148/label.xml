@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="1568" moduleid="9148" modulename="label" contextid="82010">
+  <label id="1568">
+    <name>Data cleaning and preparation are important aspect...</name>
+    <intro>&lt;p&gt;Data cleaning and preparation are important aspects of data handling. &lt;strong&gt;This is often extremely time consuming and can account for over 80% of the entire process (Wickham, 2014).&lt;/strong&gt; One powerful and comprehensive approach to tackle a good portion of data cleaning is to use a "Filter" feature, which is available and easy-to-use in Excel.
+&lt;/p&gt;&lt;br&gt;&lt;p&gt;
+  Pivot Tables are a powerful tool to identify anomalies or outliers in the data that should be investigated further or cleaned.
+  In addition to Pivot Tables, the Filter function in Excel enables the user to filter to specific values. With this, the analyst can quickly identify and clean data anomalies. They can then verify this and correct any erroneous values accordingly. The filter button also displays the different factor levels within a variable, making it easy to spot inconsistencies and correct them before conducting any statistical analysis.
+&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;Wickham, H. 2014. Tidy data. Journal of Statistical Software, 59(10), pp.1-23.&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1692653036</timemodified>
+  </label>
+</activity>

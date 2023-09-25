@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2250" moduleid="11466" modulename="label" contextid="86722">
+  <label id="2250">
+    <name>
+This is a short explanation on what residuals (e...</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;strong&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;This is a short explanation on what residuals (errors) are.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;span style="font-size: 0.9375rem;"&gt;Lets say we had the following data:&lt;/span&gt;&lt;/p&gt;&lt;span id="docs-internal-guid-cf19e339-7fff-23bb-76e9-41f8b25c5a8f"&gt;&lt;br&gt;
+    &lt;pre tabindex="0" aria-label="Console Output" role="document" id="rstudio_console_output"&gt;&lt;p dir="ltr" style="Consolas"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;x&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; y&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;span style="font-size: 0.9375rem;"&gt;-0.3340 -0.05646&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;&amp;nbsp;1.7824&amp;nbsp; 7.24161&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;&amp;nbsp;0.6978&amp;nbsp; 2.38251&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;-0.5383 -0.28679&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;span style="font-size: 0.9375rem;"&gt;-0.7619 -0.44329&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;/pre&gt;
+    &lt;p dir="ltr"&gt;Then we fit a linear model, which gives the following regression model:&lt;/p&gt;
+      &lt;pre tabindex="0" aria-label="Console Output" role="document" id="rstudio_console_output"&gt;     y = 1.257 + 3.017*x&lt;/pre&gt;
+    &lt;p dir="ltr"&gt;If we put this to our data we can find the fitted values: that is, the values when the model is fitted to the observed data.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;E.g., for row 1:&lt;/p&gt;
+      &lt;pre tabindex="0" aria-label="Console Output" role="document" id="rstudio_console_output"&gt;    1.257 + (3.017 * -0.3340) = 0.2493&lt;/pre&gt;
+    &lt;p dir="ltr"&gt;For all of our data:&amp;nbsp;&lt;/p&gt;&lt;pre tabindex="0" aria-label="Console Output" role="document" id="rstudio_console_output"&gt;&lt;p dir="ltr"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;x&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; y &amp;nbsp; fittedvalues
+-0.3340 -0.05646&amp;nbsp; &amp;nbsp; 0.2493
+&amp;nbsp;1.7824&amp;nbsp; 7.24161&amp;nbsp; &amp;nbsp; 6.6344&amp;nbsp;
+&amp;nbsp;0.6978&amp;nbsp; 2.38251&amp;nbsp; &amp;nbsp; 3.3623&amp;nbsp;
+-0.5383 -0.28679 &amp;nbsp; -0.3669&amp;nbsp;    
+-0.7619 -0.44329 &amp;nbsp; -1.0415&lt;/p&gt;&lt;/pre&gt;&lt;br&gt;
+    &lt;p dir="ltr"&gt;We can then find the difference between our observed y values (y) and our fitted values (fitted_values). This gives the residuals.&lt;/p&gt;
+    &lt;p dir="ltr"&gt;E.g., for row 1:&lt;/p&gt;
+          &lt;pre tabindex="0" aria-label="Console Output" role="document" id="rstudio_console_output"&gt;    -0.05646 - 0.2493 = -0.3057&lt;/pre&gt;&lt;pre tabindex="0" aria-label="Console Output" role="document" id="rstudio_console_output"&gt;&lt;p dir="ltr"&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;x&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; y &amp;nbsp; fitted&amp;nbsp; residuals
+-0.3340 -0.05646&amp;nbsp;   0.2491&amp;nbsp; &amp;nbsp; -0.3057
+&amp;nbsp;1.7824&amp;nbsp; 7.24161&amp;nbsp;   6.6351 &amp;nbsp; &amp;nbsp; 0.6072
+&amp;nbsp;0.6978&amp;nbsp; 2.38251&amp;nbsp;   3.3625&amp;nbsp; &amp;nbsp; -0.9797
+-0.5383 -0.28679   -0.3672 &amp;nbsp; &amp;nbsp; 0.0801
+-0.7619 -0.44329   -1.0419 &amp;nbsp; &amp;nbsp; 0.5982&lt;/p&gt;&lt;/pre&gt;&lt;/span&gt;&lt;br&gt;
+&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693302507</timemodified>
+  </label>
+</activity>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="3376">
+  <number>242</number>
+  <name>FRNs and collaborative research</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11481</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1692372590</timemodified>
+  <course_format_options id="1431">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>1</value>
+  </course_format_options>
+  <course_format_options id="1429">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>218</value>
+  </course_format_options>
+  <course_format_options id="1430">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

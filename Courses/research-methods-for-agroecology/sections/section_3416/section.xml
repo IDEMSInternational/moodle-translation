@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="3416">
+  <number>97</number>
+  <name>Binding in R-Instat</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>11351,11352</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1692875110</timemodified>
+  <course_format_options id="1538">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>1</value>
+  </course_format_options>
+  <course_format_options id="1536">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>95</value>
+  </course_format_options>
+  <course_format_options id="1537">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

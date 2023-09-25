@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="2553">
+  <number>52</number>
+  <name>Cleaning the Omani Data</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>9150,11247</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1692211672</timemodified>
+  <course_format_options id="730">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="728">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>51</value>
+  </course_format_options>
+  <course_format_options id="729">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

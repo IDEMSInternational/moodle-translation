@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="3123">
+  <number>136</number>
+  <name>Second Phase of The Tomato Game</name>
+  <summary></summary>
+  <summaryformat>1</summaryformat>
+  <sequence>10040,11353,11402</sequence>
+  <visible>1</visible>
+  <availabilityjson>$@NULL@$</availabilityjson>
+  <timemodified>1692880162</timemodified>
+  <course_format_options id="1168">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="1166">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>135</value>
+  </course_format_options>
+  <course_format_options id="1167">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

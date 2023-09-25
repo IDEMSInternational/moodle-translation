@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2220" moduleid="11414" modulename="label" contextid="86665">
+  <label id="2220">
+    <name>Historically, modelling has been used to ascertain...</name>
+    <intro>&lt;p&gt;Historically, modelling has been used to ascertain whether the observed differences in the data are statistically significant and not due to chance. Hypothesis testing is particularly useful in situations where resources are scarce, and hence data is limited. Careful design is important in these cases, using hypothesis testing or modelling to validate that differences aren't random.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;This is where statistical testing comes in: &lt;strong&gt;Statistical testing gives an indication on whether the data is sufficient (that is, large enough) to draw reliable conclusions.&lt;/strong&gt; &lt;span&gt;A significant p-value indicates that the sample size in the model is large enough to give confidence that the observed differences are not merely due to chance.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693004451</timemodified>
+  </label>
+</activity>

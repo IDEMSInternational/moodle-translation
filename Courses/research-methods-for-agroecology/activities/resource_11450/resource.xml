@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2282" moduleid="11450" modulename="resource" contextid="86705">
+  <resource id="2282">
+    <name>Slides (PPT): Introducing the Data</name>
+    <intro></intro>
+    <introformat>1</introformat>
+    <tobemigrated>0</tobemigrated>
+    <legacyfiles>0</legacyfiles>
+    <legacyfileslast>$@NULL@$</legacyfileslast>
+    <display>0</display>
+    <displayoptions>a:1:{s:10:"printintro";i:1;}</displayoptions>
+    <filterfiles>0</filterfiles>
+    <revision>4</revision>
+    <timemodified>1693170408</timemodified>
+  </resource>
+</activity>
