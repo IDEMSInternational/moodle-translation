@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2322" moduleid="11779" modulename="label" contextid="87123">
+  <label id="2322">
+    <name>Install R, RStudio, R-Instat pour la prochaine sea...</name>
+    <intro>&lt;strong&gt;Install R, RStudio, R-Instat pour la prochaine seance&lt;/strong&gt;&lt;br&gt;&lt;br&gt;If you are comfortable writing code, you may use R/RStudio. Otherwise, feel free to use R-Instat. Both will be supported.&lt;br&gt;&lt;br&gt;To download R-Instat, go to&amp;nbsp;&lt;a href="https://r-instat.org/Download.html"&gt;https://r-instat.org/Download.html&lt;/a&gt;&lt;br&gt;&lt;br&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1693902681</timemodified>
+  </label>
+</activity>

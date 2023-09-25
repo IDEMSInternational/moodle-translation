@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2330" moduleid="11794" modulename="label" contextid="87139">
+  <label id="2330">
+    <name>Presenter l'anova pour les donnee non-equilibre</name>
+    <intro>Presenter l'anova pour les donnee non-equilibre</intro>
+    <introformat>1</introformat>
+    <timemodified>1693397119</timemodified>
+  </label>
+</activity>

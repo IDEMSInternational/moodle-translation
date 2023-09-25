@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="50" moduleid="11826" modulename="lesson" contextid="87174">
+  <lesson id="50">
+    <course>325</course>
+    <name>{mlang en}script{mlang}{mlang fr}script{mlang}</name>
+    <intro>&lt;p dir="ltr" style="text-align: left;"&gt;&lt;/p&gt;&lt;p&gt;# Importation des donnees&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;dendro =
+read.table("Dendro.txt", header=TRUE, sep="\t",
+na.strings="NA", dec=".")&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;################### exploration des donn?es
+##################################################&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;### verifier la presence de donnees manquantes&lt;/p&gt;
+
+&lt;p&gt;any(is.na(dendro))&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;### tableau avec NA&lt;/p&gt;
+
+&lt;p&gt;dendroNA = read.table("Dendro_NA.txt",
+header=TRUE, sep="\t", na.strings="NA", dec=".")&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;any(is.na(dendroNA))
+# true or false &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;is.na(dendroNA)&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;### verifier la nature des variables&lt;/p&gt;
+
+&lt;p&gt;str(dendro) # indique la nature de chaque variable&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;#### modification de la nature des variables&lt;/p&gt;
+
+&lt;p&gt;names(dendro) # donne les noms des variables&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;dendro$Diam
+= as.numeric(dendro$Diam)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;dendro$Haut
+= as.numeric(dendro$Haut)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;dendro$Recouv_sp
+= as.numeric(dendro$Recouv_sp )&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;dendro$Amenagement
+= as.factor(dendro$Amenagement)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;dendro$Type_Sol = as.factor(dendro$Type_Sol)&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;dendro$Type_Veg=
+as.factor(dendro$Type_Veg)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;dendro$Nom_especes=
+as.factor(dendro$Nom_especes)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;spabondance=read.table("espabondance.txt",
+header=TRUE, sep="\t", na.strings="NA", dec=".")&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;str(spabondance)&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;################### Analyses descriptives
+##################################################&lt;/p&gt;
+
+&lt;p&gt;### visualisation graphique&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;#
+histogramme de frequence&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;hist(dendro$Haut,
+col = "steelblue")&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;hist(dendro$Haut,
+col = "steelblue", main = "Histogram of height",xlab =
+"Height", ylab="Frequence") &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;install.packages("ggplot2")&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;library(ggplot2)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;ggplot(dendro, aes(x = Haut)) +&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp; &lt;span lang="EN-US"&gt;geom_histogram(binwidth = 0.2) &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;ggplot(dendro,
+aes(x = Haut)) +&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp; geom_histogram(colour = 4, fill =
+"white", &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; binwidth = 0.5)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;#Nuage de points&lt;/p&gt;
+
+&lt;p&gt;plot(x = dendro$Haut,y = dendro$Diam)&lt;/p&gt;
+
+&lt;p&gt;plot(x = dendro$Haut,y = dendro$Diam,&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; xlab =
+"Hauteur",&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; ylab =
+"Diam?tre",&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; main =
+"hauteur vs diamètre")&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;ggplot(dendro, aes(x = Haut, y = Diam))+geom_point()&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;ggplot(dendro,
+aes(x= Haut, y=Diam)) + &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp; geom_point()+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp; geom_smooth(method=lm, se=FALSE)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;#boxplot&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;p &amp;lt;- ggplot(dendro, aes(x=Amenagement, y=Haut)) + &lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp; &lt;span lang="EN-US"&gt;geom_boxplot()&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;p&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;p +
+stat_summary(fun.y=mean, geom="point", shape=23, size=4) # ajouter la
+moyenne&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;#colorer selon les Amenagement, ajouter la legende et
+changer sa position&lt;/p&gt;
+
+&lt;p&gt;p2&amp;lt;-ggplot(dendro, aes(x=Amenagement, y=Haut,
+fill=Amenagement)) +&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp; &lt;span lang="EN-US"&gt;geom_boxplot()+
+theme(legend.position="top") # left, dodge, bottom, none&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;p2 &lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;### diagramme a baton pour variable qualitative&lt;/p&gt;
+
+&lt;p&gt;table(dendro$Amenagement)&lt;/p&gt;
+
+&lt;p&gt;barplot(table(dendro$Amenagement),col =
+"red4",xlab = "Am?nagements",ylab = "Effectif")&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;#reorganiser le tableau pour l'utiliser avec ggplot&lt;/p&gt;
+
+&lt;p&gt;df &amp;lt;- data.frame(Amenagement=c("CP",
+"FI", "RAS","TM", "ZF"),&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;span lang="EN-US"&gt;len=c(90, 110, 391,148,135))&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;head(df)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;p3&amp;lt;-ggplot(data=df,
+aes(x=Amenagement, y=len)) +&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp; geom_bar(stat="identity",
+fill="steelblue")+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp; theme_minimal()&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;p3&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;###Camembert&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;pie(table(dendro$Amenagement))&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;p4 &amp;lt;-
+ggplot(df, aes(x="", y=len, fill=Amenagement))+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp; geom_bar(width = 1, stat =
+"identity")+ coord_polar("y", start=0)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;p4&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;### exercice : faire l'histogramme pour le diametre #####&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;#
+ggplot(dendro, aes(x = Diam)) +&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;#&amp;nbsp;&amp;nbsp; geom_histogram()&amp;nbsp; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;hist(dendro$Diam,
+col = "steelblue", main = "Histogram of diamètre",xlab =
+"Diamètre", ylab="Frequence")&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;hist(dendro$Diam,
+col = "steelblue",frame=TRUE)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;### exercice : boxplot de diam en fonction de aménagement
+#####&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;span lang="EN-US"&gt;ggplot(dendro, aes(x=Amenagement,
+y=recouv_gene, fill=Amenagement)) +&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&amp;nbsp; geom_boxplot()+
+theme(legend.position="top")+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp; &lt;/span&gt;xlab("Amenagement")+&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;
+ylab("Recouvrement")&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;####################################################################################################&lt;/p&gt;
+
+&lt;p&gt;#### parametres de distribution&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;## Parametres de position&lt;/p&gt;
+
+&lt;p&gt;#Moyenne&lt;/p&gt;
+
+&lt;p&gt;colMeans(dendro)&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;colMeans(dendro[c(7:16)])&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;colMeans(dendro[7:16,])&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;### creation d'un tableau avec uniquement les donnees
+quantitatives&lt;/p&gt;
+
+&lt;p&gt;dendro_quanti =dendro[c(7:16)]&lt;/p&gt;
+
+&lt;p&gt;colMeans(dendro_quanti)&lt;/p&gt;
+
+&lt;p&gt;rowMeans(dendro_quanti)&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;## exporter un tableau de R vers le dossier de travail&lt;/p&gt;
+
+&lt;p&gt;save(dendro_quanti, file = "dendro_quanti.txt")&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;#mediane&lt;/p&gt;
+
+&lt;p&gt;median(dendro_quanti$Haut) &lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;## Parametres de dispersion&lt;/p&gt;
+
+&lt;p&gt;# max et min&lt;/p&gt;
+
+&lt;p&gt;min(dendro_quanti$Haut)&lt;/p&gt;
+
+&lt;p&gt;max(dendro_quanti$Haut)&lt;/p&gt;
+
+&lt;p&gt;range(dendro_quanti$recouv_gene) #min et max a la fois pour
+la variable&lt;/p&gt;
+
+&lt;p&gt;sapply(dendro_quanti, range) # pour toutes les variables&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;#Variance
+(variance) &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;sapply(dendro_quanti,
+var)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;#ecart type&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;sapply(dendro_quanti,
+sd)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;######################
+fonction summary &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;summary(dendro)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;summary(dendroNA)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;summary(dendro$Diam)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;##### fonction describe&lt;/p&gt;
+
+&lt;p&gt;install.packages("prettyR")&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;library(prettyR)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;describe(dendro)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;describe(dendro,num.desc
+=
+c("mean","sd","median","min","max","valid.n"))#valid.n=effectif&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;####################################################################################################################&lt;/p&gt;
+
+&lt;p&gt;########################## Analyses inferentielles
+##############################################&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;### verification de la normalite des données&lt;/p&gt;
+
+&lt;p&gt;## graphique&lt;/p&gt;
+
+&lt;p&gt;hist(dendro$Haut)&lt;/p&gt;
+
+&lt;p&gt;hist(log(dendro$Haut))&lt;/p&gt;
+
+&lt;p&gt;#### ajouter la courbe de normalité&lt;/p&gt;
+
+&lt;p&gt;ggplot(dendro, aes(dendro$Haut)) +&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp; &lt;span lang="EN-US"&gt;geom_histogram(aes(y = ..density..),
+fill='lightgray', col='black') +&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp; stat_function(fun = dnorm, args =
+list(mean=mean(dendro$Haut),
+sd=sd(dendro$Haut)),col="darkred",lwd=1.5)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;qqnorm(dendro$Haut)&lt;/p&gt;
+
+&lt;p&gt;qqline(dendro$Haut, col = "blue")&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;### exercice faire la varification pour la variable Diam
+############&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;### verification statistique de la normalité d’une variable&lt;/p&gt;
+
+&lt;p&gt;shapiro.test(dendro$Haut) # p&amp;lt;0.05 distribution n'est pas
+normale&lt;/p&gt;
+
+&lt;p&gt;#shapiro.test(log(dendro$Haut))&lt;/p&gt;
+
+&lt;p&gt;fligner.test(Haut~Nom_especes, data =dendro) ### variance
+n'est pas homogene&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;#### correlation entre les variables&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;install.packages("ggpubr")&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;library(ggpubr)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;install.packages("Hmisc")&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;library(Hmisc)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;# entre deux variables&lt;/p&gt;
+
+&lt;p&gt;cor(dendro$Haut, dendro$Diam, method =
+c("spearman"))&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;cor.test(dendro$Haut,
+dendro$Diam, method = c("spearman")) &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;plot(x = dendro$Haut,y = dendro$Diam)&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;#entre toutes les variables quantitatives d'un tableau&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;cor(dendro_quanti,
+method = c("pearson"))&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;rcorr(as.matrix(dendro_quanti))&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;################# comparaison des moyennes&lt;/p&gt;
+
+&lt;p&gt;library(tidyverse) &lt;/p&gt;
+
+&lt;p&gt;library(ggpubr)&lt;/p&gt;
+
+&lt;p&gt;library(rstatix)&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;############# comparaison de deux moyennes&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;#test
+parametrique&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;#importation du tableau&lt;/p&gt;
+
+&lt;p&gt;str(datamoustiques)&lt;/p&gt;
+
+&lt;p&gt;datamoustiques$infestation=as.factor(datamoustiques$infestation)&lt;/p&gt;
+
+&lt;p&gt;datamoustiques$tailleailes=as.numeric(datamoustiques$tailleailes)&lt;/p&gt;
+
+&lt;p&gt;#normalité&lt;/p&gt;
+
+&lt;p&gt;hist(datamoustiques$tailleailes)&lt;/p&gt;
+
+&lt;p&gt;shapiro.test(datamoustiques$tailleailes)&lt;/p&gt;
+
+&lt;p&gt;fligner.test(tailleailes~infestation, data =datamoustiques)&lt;/p&gt;
+
+&lt;p&gt;#test&lt;/p&gt;
+
+&lt;p&gt;t.test(datamoustiques$tailleailes~
+datamoustiques$infestation)&lt;/p&gt;
+
+&lt;p&gt;#comprehension du resultat&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;aggregate(tailleailes~infestation,
+data =datamoustiques, FUN = mean)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;ggboxplot(&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp; datamoustiques, x =
+"infestation", y = "tailleailes", &lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp; ylab = "taille
+des ailes", xlab = "infestation", add = "jitter")&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;#test non parametrique&lt;/p&gt;
+
+&lt;p&gt;wilcox.test(tailleailes~infestation, data =datamoustiques)&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;##### exercice rapid comparer les recouvrements en fonction
+des traitements&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;hist(dendro$recouv_gene)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;shapiro.test(dendro$recouv_gene)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;wilcox.test(dendro$recouv_gene~dendro$Amenagement)&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;aggregate(recouv_gene
+~ Amenagement, data = dendro, FUN = mean)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;############# comparaison de plus de deux moyennes&lt;/p&gt;
+
+&lt;p&gt;#test parametrique&lt;/p&gt;
+
+&lt;p&gt;x=aov(dendro$Haut~dendro$Amenagement)&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;x&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;summary(x)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;a=TukeyHSD(x)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;a&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;# calculer la moyenne en fonction des Amenagements&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;amemoy
+&amp;lt;- aggregate(Haut ~ Amenagement, data = dendro, FUN = mean)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;amemoy&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;amesd &amp;lt;-
+aggregate(Haut ~ Amenagement, data = dendro, FUN = sd)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;amesd&lt;/p&gt;
+
+&lt;p&gt;boxplot(dendro$Haut~dendro$Amenagement)&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;#test non parametrique&lt;/p&gt;
+
+&lt;p&gt;x1 = kruskal.test(dendro$Haut~dendro$Amenagement)&lt;/p&gt;
+
+&lt;p&gt;x1&lt;/p&gt;
+
+&lt;p&gt;pairwise.wilcox.test(dendro$Haut,dendro$Amenagement,
+p.adjust.method = "BH")&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;# ### exercice comparer recouv_gene en fonction de
+amenagement&lt;/p&gt;
+
+&lt;p&gt;kruskal.test(dendro$recouv_gene~dendro$Amenagement)&lt;/p&gt;
+
+&lt;p&gt;pairwise.wilcox.test(dendro$recouv_gene,dendro$Amenagement,
+p.adjust.method = "BH")&lt;/p&gt;
+
+&lt;p&gt;boxplot(dendro$recouv_gene~dendro$Amenagement)&lt;/p&gt;
+
+&lt;p&gt;aggregate(dendro$recouv_gene~dendro$Amenagement, FUN=mean)&lt;/p&gt;
+
+&lt;p&gt;aggregate(dendro$recouv_gene~dendro$Amenagement, FUN=sd)&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;########### anova a plusieurs facteurs&lt;/p&gt;
+
+&lt;p&gt;model1&amp;lt;-aov(Haut~Amenagement+Type_Sol,data=dendro)
+#modele aditif simple&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;summary(model1)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;model1b&amp;lt;-aov(Haut~Amenagement*Type_Sol,data=dendro) #
+model avec intéraction&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;summary(model1b)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;boxplot(Haut~Amenagement*Type_Sol,data=dendro)&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;##
+simplification de model&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;model1c&amp;lt;-aov(Diam~Amenagement*Nom_especes,data=dendro)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;summary(model1c)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;model2=update(model1c,~.-Amenagement:Nom_especes)&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;span lang="EN-US"&gt;anova(model1b,model2,test="F")&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;summary(model2)&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;br&gt;&lt;p&gt;&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <practice>0</practice>
+    <modattempts>0</modattempts>
+    <usepassword>0</usepassword>
+    <password></password>
+    <dependency>0</dependency>
+    <conditions>O:8:"stdClass":3:{s:9:"timespent";i:0;s:9:"completed";i:0;s:15:"gradebetterthan";i:0;}</conditions>
+    <grade>100</grade>
+    <custom>1</custom>
+    <ongoing>0</ongoing>
+    <usemaxgrade>0</usemaxgrade>
+    <maxanswers>5</maxanswers>
+    <maxattempts>1</maxattempts>
+    <review>0</review>
+    <nextpagedefault>0</nextpagedefault>
+    <feedback>0</feedback>
+    <minquestions>0</minquestions>
+    <maxpages>1</maxpages>
+    <timelimit>0</timelimit>
+    <retake>0</retake>
+    <activitylink>0</activitylink>
+    <mediafile></mediafile>
+    <mediaheight>480</mediaheight>
+    <mediawidth>640</mediawidth>
+    <mediaclose>0</mediaclose>
+    <slideshow>0</slideshow>
+    <width>640</width>
+    <height>480</height>
+    <bgcolor>#FFFFFF</bgcolor>
+    <displayleft>0</displayleft>
+    <displayleftif>0</displayleftif>
+    <progressbar>0</progressbar>
+    <available>0</available>
+    <deadline>0</deadline>
+    <timemodified>1694114188</timemodified>
+    <completionendreached>0</completionendreached>
+    <completiontimespent>0</completiontimespent>
+    <allowofflineattempts>0</allowofflineattempts>
+    <pages>
+    </pages>
+    <grades>
+    </grades>
+    <timers>
+    </timers>
+    <overrides>
+    </overrides>
+  </lesson>
+</activity>

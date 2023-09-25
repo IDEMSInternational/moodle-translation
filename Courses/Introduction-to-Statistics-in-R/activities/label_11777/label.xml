@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="2321" moduleid="11777" modulename="label" contextid="87121">
+  <label id="2321">
+    <name>Introduction
+Chapter I: Introduction to R / R-stu...</name>
+    <intro>&lt;p&gt;{mlang en}Introduction{mlang}{mlang fr}Introduction{mlang}&lt;/p&gt;
+&lt;p&gt;{mlang en}Chapter I: Introduction to R / R-studio{mlang}{mlang fr}Chapitre I: Présentation du logiciel R / R-studio{mlang}&lt;/p&gt;
+&lt;p&gt;
+&lt;ul&gt;
+    &lt;li&gt;{mlang en}Discover R language and how it works{mlang}{mlang fr}Découverte du logiciel R et de son mode de fonctionnement{mlang}&lt;/li&gt;
+    &lt;li&gt;{mlang en}Installing the language{mlang}{mlang fr}Installation du logiciel{mlang}&lt;/li&gt;
+    &lt;li&gt;{mlang en}Preparing, importing and exploring data{mlang}{mlang fr}Préparation, importation et exploration des données{mlang}&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;{mlang en}Chapter II: Descriptive analysis{mlang}{mlang fr}Chapitre II: Analyses descriptives{mlang}&lt;/p&gt;
+&lt;p&gt;
+&lt;ul&gt;
+    &lt;li&gt;{mlang en}Graphic visualisation{mlang}{mlang fr}Visualisation graphique{mlang}&lt;/li&gt;
+    &lt;li&gt;{mlang en}Calculation of position parameters and data dispersions{mlang}{mlang fr}Calcul des paramètres de position et de dispersions des données{mlang}&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+&lt;p&gt;{mlang en}Chapter III: Inferential Analysis{mlang}{mlang fr}Chapitre III: Analyses inférentielles{mlang}&lt;/p&gt;
+&lt;p&gt;
+&lt;ul&gt;
+    &lt;li&gt;{mlang en}Distribution in one variable{mlang}{mlang fr}Distribution d’une variable{mlang}&lt;/li&gt;
+    &lt;li&gt;{mlang en}Correlation tests{mlang}{mlang fr}Tests de corrélations{mlang}&lt;/li&gt;
+    &lt;li&gt;{mlang en}Comparison of averages{mlang}{mlang fr}Comparaison de moyennes{mlang}&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;{mlang en}Documentary resources{mlang}{mlang fr}Ressources documentaires{mlang}&lt;/p&gt;</intro>
+    <introformat>1</introformat>
+    <timemodified>1694116230</timemodified>
+  </label>
+</activity>
