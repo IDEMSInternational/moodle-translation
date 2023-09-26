@@ -1,0 +1,11 @@
+<its:rules xmlns:its="http://www.w3.org/2005/11/its" version="1.0"
+ xmlns:ext="okapi-framework:its-extensions">
+<its:translateRule selector="//*" translate="no"/>
+<!-- Rules list adapted from https://qabiria.com/en/resources/blog/how-to-translate-a-moodle-course -->
+<its:translateRule selector="moodle_backup//information//original_course_fullname | moodle_backup//information//original_course_shortname | moodle_backup//activity/title | course//shortname | course/fullname | course/summary | course/category/name | course/category/description | activity//name | activity//text | activity//intro | activity//page//content | externalurl | section//name | section//summary | question_categories//name | question_categories//info | question_categories//questiontext | question_categories//feedback | question_categories//generalfeedback" translate="yes"/>
+<its:translateRule selector="//stackprt//* | //stackinput//*" translate="no"/>
+<!-- 
+It seems like all the PRT feedback is empty, so all this gives us is duplicate empty strings.
+<its:translateRule selector="//stackprt/stackprtnodes/stackprtnode/truefeedback | //stackprt/stackprtnodes/stackprtnode/falsefeedback" translate="yes"/>
+-->
+</its:rules>
