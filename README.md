@@ -13,3 +13,24 @@ Full details on how to use this repo coming soon.
 	- `-tl` specifies the target language
 	- `-fc` specifies a rule that filters out only those XML tags whose content we are interested in. We can modify this file as appropriate.
 3. Reimport translated strings: TBD
+
+# Options
+
+## Crowdin
+pros and cons?
+
+## Moodle local_coursetranslator
+pros and cons?
+
+## Moodle content translation plugin set
+pros and cons?
+
+# TODO
+* SB to investigate crowdin integration further
+* SB to check if crowdin works well with *.xlf files
+* SB and GO to present options to DS for a decision
+
+# Questions
+* How does STACK fit into this?
+* How does inporting back works and what are the limitations?
+* With okapi we can automatically create copies of courses in different languages rather than multi-lingual courses. Is this OK or should we write scripts to create multi-lingual instead?
