@@ -29,6 +29,7 @@ pros and cons?
 * SB to investigate crowdin integration further
 * SB to check if crowdin works well with *.xlf files
 * SB and GO to present options to DS for a decision
+* SB to investigate content translation plugin set
 
 # Questions
 * How does STACK fit into this?
