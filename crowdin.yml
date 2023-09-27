@@ -1,5 +1,5 @@
 files:
   - source: /courses/Introduction-to-Statistics-in-R/translation_files/en/*.txt
     translation: /courses/Introduction-to-Statistics-in-R/translation_files/%two_letters_code%/%two_letters_code%_%file_name%.txt
-  - source: /courses/research-methods-for-agroecology/translation_files/*.txt
+  - source: /courses/research-methods-for-agroecology/translation_files/en/*.txt
     translation: /courses/research-methods-for-agroecology/translation_files/%two_letters_code%/%two_letters_code%_%file_name%.docx
