@@ -44,7 +44,7 @@ Full details on how to use this repo coming soon.
 # TODO
 
 * SB to investigate crowdin integration further
-* SB to check if crowdin works well with `*.xlf` files
+* SB to check if crowdin works well with `*.xlf` files - It looks likt it is. The [Documentation](https://store.crowdin.com/xliff2.0) suggests it requires *.xliff files so will require testing.
 * SB and GO to present options to DS for a decision
 * SB to investigate content translation plugin set (maybe try to disable/uninstall `local_coursetranslator`)
 
